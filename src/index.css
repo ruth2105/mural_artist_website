@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-near-black text-warm-white;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-near-black;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted-gray;
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-warm-white/50;
+  }
+
+  /* Selection */
+  ::selection {
+    @apply bg-warm-white text-near-black;
+  }
+
+  /* Focus visible */
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-warm-white;
+  }
+
+  /* Remove default button styles */
+  button {
+    @apply cursor-pointer;
+  }
+}
+
+@layer utilities {
+  /* Gradient utilities */
+  .bg-gradient-radial {
+    background: radial-gradient(circle, var(--tw-gradient-stops));
+  }
+
+  /* Text shadow for readability */
+  .text-shadow {
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  /* Custom animations */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.6s ease-out;
+  }
+
+  /* Smooth transition for all */
+  .transition-smooth {
+    transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+}
+
+/* Additional utility styles */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Image loading optimization */
+img {
+  @apply max-w-full h-auto;
+}
+
+/* Prevent layout shift */
+img[loading="lazy"] {
+  min-height: 200px;
+}
