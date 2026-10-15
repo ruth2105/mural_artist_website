@@ -118,7 +118,7 @@ export default function Footer() {
               © {currentYear} Mr. Jon. All rights reserved.
             </p>
             <p className="text-warm-white/50 text-sm">
-              Ethiopian Visual Artist
+              Developed by <a href="https://github.com/ruth2105" target="_blank" rel="noopener noreferrer" className="text-warm-white/70 hover:text-warm-white transition-colors">Ruth Mesfin</a>
             </p>
           </div>
         </div>
