@@ -11,6 +11,9 @@ import CommissionSection from '../components/CommissionSection';
 import SocialSection from '../components/SocialSection';
 import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
+import PageLoader from '../components/PageLoader';
+import ScrollIndicator from '../components/ScrollIndicator';
+import BackToTop from '../components/BackToTop';
 
 export default function PublicSite() {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -28,28 +31,33 @@ export default function PublicSite() {
   };
 
   return (
-    <div className="min-h-screen bg-near-black text-warm-white">
-      <Navbar />
-      
-      <main>
-        <Hero />
-        <Introduction />
-        <ArtworkGallery onProjectClick={handleProjectClick} />
-        <AboutSection />
-        <ProcessSection />
-        <ServicesSection />
-        <CommissionSection />
-        <SocialSection />
-        <ContactSection />
-      </main>
+    <>
+      <PageLoader />
+      <ScrollIndicator />
+      <div className="min-h-screen bg-near-black text-warm-white">
+        <Navbar />
+        
+        <main>
+          <Hero />
+          <Introduction />
+          <ArtworkGallery onProjectClick={handleProjectClick} />
+          <AboutSection />
+          <ProcessSection />
+          <ServicesSection />
+          <CommissionSection />
+          <SocialSection />
+          <ContactSection />
+        </main>
 
-      <Footer />
+        <Footer />
+        <BackToTop />
 
-      <ProjectViewer
-        project={selectedProject}
-        onClose={handleCloseViewer}
-        onNavigate={handleNavigateProject}
-      />
-    </div>
+        <ProjectViewer
+          project={selectedProject}
+          onClose={handleCloseViewer}
+          onNavigate={handleNavigateProject}
+        />
+      </div>
+    </>
   );
 }
