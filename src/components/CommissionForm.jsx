@@ -5,7 +5,6 @@ import { supabase } from '../lib/supabase';
 export default function CommissionForm() {
   const [formData, setFormData] = useState({
     fullName: '',
-    email: '',
     phone: '',
     projectType: '',
     projectLocation: '',
@@ -34,7 +33,7 @@ export default function CommissionForm() {
         .from('commission_inquiries')
         .insert([{
           full_name: formData.fullName,
-          email: formData.email,
+          email: null,
           phone: formData.phone,
           project_type: formData.projectType,
           project_location: formData.projectLocation,
@@ -51,7 +50,6 @@ export default function CommissionForm() {
       setStatus('success');
       setFormData({
         fullName: '',
-        email: '',
         phone: '',
         projectType: '',
         projectLocation: '',
@@ -93,29 +91,10 @@ export default function CommissionForm() {
           />
         </div>
 
-        {/* Email */}
-        <div>
-          <label htmlFor="email" className="block text-warm-white text-sm font-medium mb-2">
-            Email Address *
-          </label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-            className="w-full px-4 py-3 bg-charcoal border border-white/20 text-warm-white placeholder-muted-gray focus:border-warm-white focus:outline-none transition-colors"
-            placeholder="your@email.com"
-          />
-        </div>
-      </div>
-
-      <div className="grid md:grid-cols-2 gap-6">
         {/* Phone */}
         <div>
           <label htmlFor="phone" className="block text-warm-white text-sm font-medium mb-2">
-            Phone Number
+            Phone Number *
           </label>
           <input
             type="tel"
@@ -123,31 +102,14 @@ export default function CommissionForm() {
             name="phone"
             value={formData.phone}
             onChange={handleChange}
+            required
             className="w-full px-4 py-3 bg-charcoal border border-white/20 text-warm-white placeholder-muted-gray focus:border-warm-white focus:outline-none transition-colors"
-            placeholder="Optional"
+            placeholder="+251 91 234 5678"
           />
         </div>
+      </div>
 
-        {/* Project Type */}
-        <div>
-          <label htmlFor="projectType" className="block text-warm-white text-sm font-medium mb-2">
-            Project Type *
-          </label>
-          <select
-            id="projectType"
-            name="projectType"
-            value={formData.projectType}
-            onChange={handleChange}
-            required
-            className="w-full px-4 py-3 bg-charcoal border border-white/20 text-warm-white focus:border-warm-white focus:outline-none transition-colors"
-          >
-            <option value="">Select a type</option>
-            <option value="mural">Mural / Spatial Art</option>
-            <option value="branding">Brand Identity & Graphic Design</option>
-            <option value="digital">Digital Illustration & Vector Art</option>
-            <option value="other">Other</option>
-          </select>
-        </div>
+      <div className="grid md:grid-cols-2 gap-6"
       </div>
 
       <div className="grid md:grid-cols-2 gap-6">
