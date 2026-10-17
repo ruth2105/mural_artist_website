@@ -109,10 +109,28 @@ export default function CommissionForm() {
         </div>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-6"
-      </div>
-
       <div className="grid md:grid-cols-2 gap-6">
+        {/* Project Type */}
+        <div>
+          <label htmlFor="projectType" className="block text-warm-white text-sm font-medium mb-2">
+            Project Type *
+          </label>
+          <select
+            id="projectType"
+            name="projectType"
+            value={formData.projectType}
+            onChange={handleChange}
+            required
+            className="w-full px-4 py-3 bg-charcoal border border-white/20 text-warm-white focus:border-warm-white focus:outline-none transition-colors"
+          >
+            <option value="">Select a type</option>
+            <option value="mural">Mural / Spatial Art</option>
+            <option value="branding">Brand Identity & Graphic Design</option>
+            <option value="digital">Digital Illustration & Vector Art</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
         {/* Project Location */}
         <div>
           <label htmlFor="projectLocation" className="block text-warm-white text-sm font-medium mb-2">
