@@ -25,6 +25,7 @@ export default function AdminLayout({ children }) {
     { path: '/admin/profile', label: 'Artist Profile', icon: '👤' },
     { path: '/admin/services', label: 'Services', icon: '💼' },
     { path: '/admin/inquiries', label: 'Inquiries', icon: '📧' },
+    { path: '/admin/settings', label: 'Settings', icon: '⚙️' },
   ];
 
   const isActive = (path) => {

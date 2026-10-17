@@ -13,6 +13,7 @@ import Inquiries from './pages/admin/Inquiries';
 import Categories from './pages/admin/Categories';
 import Profile from './pages/admin/Profile';
 import Services from './pages/admin/Services';
+import Settings from './pages/admin/Settings';
 import ProtectedRoute from './components/admin/ProtectedRoute';
 
 export default function App() {
@@ -86,6 +87,14 @@ export default function App() {
             element={
               <ProtectedRoute>
                 <Services />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/admin/settings"
+            element={
+              <ProtectedRoute>
+                <Settings />
               </ProtectedRoute>
             }
           />
