@@ -29,52 +29,52 @@ const baseArtworks = [
     "category": "big-projects",
     "categoryLabel": "Big Projects Own by Me",
     "ownership": "individual",
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_10_17_35_47_IMG_2854.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_10_17_35_47_IMG_2854.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_10_17_35_47_IMG_2854.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_10_17_35_47_IMG_2854.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_10_17_35_47_IMG_2854.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_10_17_35_47_IMG_2854.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_10_17_35_47_IMG_2854.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_10_17_35_47_IMG_2854.webp",
         "alt": "Amibara Real State - 2026_10_10_17_35_47_IMG_2854"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_18_48_57_IMG_2995.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_18_48_57_IMG_2995.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_18_48_57_IMG_2995.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_18_48_57_IMG_2995.webp",
         "alt": "Amibara Real State - 2026_10_11_18_48_57_IMG_2995"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_19_55_21_IMG_3006.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_19_55_21_IMG_3006.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_19_55_21_IMG_3006.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_19_55_21_IMG_3006.webp",
         "alt": "Amibara Real State - 2026_10_11_19_55_21_IMG_3006"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_20_37_32_IMG_3325.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_20_37_32_IMG_3325.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_20_37_32_IMG_3325.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_20_37_32_IMG_3325.webp",
         "alt": "Amibara Real State - 2026_10_11_20_37_32_IMG_3325"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_20_39_48_IMG_3234.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_20_39_48_IMG_3234.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_20_39_48_IMG_3234.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_20_39_48_IMG_3234.webp",
         "alt": "Amibara Real State - 2026_10_11_20_39_48_IMG_3234"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_20_40_22_IMG_3329.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_20_40_22_IMG_3329.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_20_40_22_IMG_3329.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_20_40_22_IMG_3329.webp",
         "alt": "Amibara Real State - 2026_10_11_20_40_22_IMG_3329"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_20_49_00_IMG_3336.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_20_49_00_IMG_3336.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_20_49_00_IMG_3336.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_20_49_00_IMG_3336.webp",
         "alt": "Amibara Real State - 2026_10_11_20_49_00_IMG_3336"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_22_14_07_IMG_3028.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_22_14_07_IMG_3028.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_22_14_07_IMG_3028.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_11_22_14_07_IMG_3028.webp",
         "alt": "Amibara Real State - 2026_10_11_22_14_07_IMG_3028"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_12_16_16_46_IMG_3053.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_12_16_16_46_IMG_3053.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_12_16_16_46_IMG_3053.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Amibara%20Real%20State/2026_10_12_16_16_46_IMG_3053.webp",
         "alt": "Amibara Real State - 2026_10_12_16_16_46_IMG_3053"
       }
     ],
@@ -90,107 +90,107 @@ const baseArtworks = [
     "category": "big-projects",
     "categoryLabel": "Big Projects Own by Me",
     "ownership": "individual",
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_16_20_IMG_3040.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_16_20_IMG_3040.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_16_20_IMG_3040.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_16_20_IMG_3040.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_16_20_IMG_3040.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_16_20_IMG_3040.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_16_20_IMG_3040.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_16_20_IMG_3040.webp",
         "alt": "Ephrata Specialty Coffee - 2026_04_08_09_16_20_IMG_3040"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_02_24_13_43_39_IMG_5609.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_02_24_13_43_39_IMG_5609.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_02_24_13_43_39_IMG_5609.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_02_24_13_43_39_IMG_5609.webp",
         "alt": "Ephrata Specialty Coffee - 2026_02_24_13_43_39_IMG_5609"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_02_08_26_59_IMG_3037.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_02_08_26_59_IMG_3037.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_02_08_26_59_IMG_3037.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_02_08_26_59_IMG_3037.webp",
         "alt": "Ephrata Specialty Coffee - 2026_04_02_08_26_59_IMG_3037"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_03_15_22_59_IMG_6576.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_03_15_22_59_IMG_6576.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_03_15_22_59_IMG_6576.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_03_15_22_59_IMG_6576.webp",
         "alt": "Ephrata Specialty Coffee - 2026_04_03_15_22_59_IMG_6576"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_16_52_IMG_6801.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_16_52_IMG_6801.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_16_52_IMG_6801.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_16_52_IMG_6801.webp",
         "alt": "Ephrata Specialty Coffee - 2026_04_08_09_16_52_IMG_6801"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_17_09_IMG_6802.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_17_09_IMG_6802.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_17_09_IMG_6802.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_17_09_IMG_6802.webp",
         "alt": "Ephrata Specialty Coffee - 2026_04_08_09_17_09_IMG_6802"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_17_53_IMG_6803.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_17_53_IMG_6803.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_17_53_IMG_6803.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_17_53_IMG_6803.webp",
         "alt": "Ephrata Specialty Coffee - 2026_04_08_09_17_53_IMG_6803"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_19_48_IMG_6804.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_19_48_IMG_6804.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_19_48_IMG_6804.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_04_08_09_19_48_IMG_6804.webp",
         "alt": "Ephrata Specialty Coffee - 2026_04_08_09_19_48_IMG_6804"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_06_22_10_53_10_IMG_9446.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_06_22_10_53_10_IMG_9446.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_06_22_10_53_10_IMG_9446.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_06_22_10_53_10_IMG_9446.webp",
         "alt": "Ephrata Specialty Coffee - 2026_06_22_10_53_10_IMG_9446"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_08_21_13_48_33_IMG_0976.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_08_21_13_48_33_IMG_0976.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_08_21_13_48_33_IMG_0976.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_08_21_13_48_33_IMG_0976.webp",
         "alt": "Ephrata Specialty Coffee - 2026_08_21_13_48_33_IMG_0976"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_10_04_11_43_48_IMG_3094.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_10_04_11_43_48_IMG_3094.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_10_04_11_43_48_IMG_3094.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_10_04_11_43_48_IMG_3094.webp",
         "alt": "Ephrata Specialty Coffee - 2026_10_04_11_43_48_IMG_3094"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_10_04_11_43_53_IMG_3095.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_10_04_11_43_53_IMG_3095.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_10_04_11_43_53_IMG_3095.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/2026_10_04_11_43_53_IMG_3095.webp",
         "alt": "Ephrata Specialty Coffee - 2026_10_04_11_43_53_IMG_3095"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090022.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090022.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090022.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090022.webp",
         "alt": "Ephrata Specialty Coffee - Screenshot 2026-10-21 090022"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090106.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090106.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090106.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090106.webp",
         "alt": "Ephrata Specialty Coffee - Screenshot 2026-10-21 090106"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090138.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090138.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090138.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090138.webp",
         "alt": "Ephrata Specialty Coffee - Screenshot 2026-10-21 090138"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090204.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090204.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090204.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090204.webp",
         "alt": "Ephrata Specialty Coffee - Screenshot 2026-10-21 090204"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090235.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090235.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090235.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090235.webp",
         "alt": "Ephrata Specialty Coffee - Screenshot 2026-10-21 090235"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090323.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090323.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090323.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090323.webp",
         "alt": "Ephrata Specialty Coffee - Screenshot 2026-10-21 090323"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090352.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090352.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090352.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090352.webp",
         "alt": "Ephrata Specialty Coffee - Screenshot 2026-10-21 090352"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090430.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090430.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090430.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Big%20Projects%20Own%20by%20Me/Ephrata%20Specialty%20Coffee/Screenshot%202026-10-21%20090430.webp",
         "alt": "Ephrata Specialty Coffee - Screenshot 2026-10-21 090430"
       }
     ],
@@ -206,62 +206,62 @@ const baseArtworks = [
     "category": "collaborations",
     "categoryLabel": "Projects Done by Collaboration",
     "ownership": "collaborative",
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/2025_12_31_13_58_18_IMG_1543.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/2025_12_31_13_58_18_IMG_1543.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/2025_12_31_13_58_18_IMG_1543.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/2025_12_31_13_58_18_IMG_1543.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/2025_12_31_13_58_18_IMG_1543.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/2025_12_31_13_58_18_IMG_1543.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/2025_12_31_13_58_18_IMG_1543.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/2025_12_31_13_58_18_IMG_1543.webp",
         "alt": "1 Furi Coridor Cemnt Fabrica - 2025_12_31_13_58_18_IMG_1543"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/2025_12_31_15_17_13_IMG_1552.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/2025_12_31_15_17_13_IMG_1552.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/2025_12_31_15_17_13_IMG_1552.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/2025_12_31_15_17_13_IMG_1552.webp",
         "alt": "1 Furi Coridor Cemnt Fabrica - 2025_12_31_15_17_13_IMG_1552"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/2026_01_01_09_11_43_IMG_1702.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/2026_01_01_09_11_43_IMG_1702.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/2026_01_01_09_11_43_IMG_1702.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/2026_01_01_09_11_43_IMG_1702.webp",
         "alt": "1 Furi Coridor Cemnt Fabrica - 2026_01_01_09_11_43_IMG_1702"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/2026_01_03_17_33_45_IMG_3512.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/2026_01_03_17_33_45_IMG_3512.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/2026_01_03_17_33_45_IMG_3512.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/2026_01_03_17_33_45_IMG_3512.webp",
         "alt": "1 Furi Coridor Cemnt Fabrica - 2026_01_03_17_33_45_IMG_3512"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093144.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093144.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093144.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093144.webp",
         "alt": "1 Furi Coridor Cemnt Fabrica - Screenshot 2026-10-21 093144"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093230.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093230.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093230.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093230.webp",
         "alt": "1 Furi Coridor Cemnt Fabrica - Screenshot 2026-10-21 093230"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093256.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093256.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093256.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093256.webp",
         "alt": "1 Furi Coridor Cemnt Fabrica - Screenshot 2026-10-21 093256"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093315.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093315.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093315.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093315.webp",
         "alt": "1 Furi Coridor Cemnt Fabrica - Screenshot 2026-10-21 093315"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093333.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093333.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093333.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093333.webp",
         "alt": "1 Furi Coridor Cemnt Fabrica - Screenshot 2026-10-21 093333"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093356.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093356.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093356.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093356.webp",
         "alt": "1 Furi Coridor Cemnt Fabrica - Screenshot 2026-10-21 093356"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093435.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093435.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093435.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/1%20Furi%20Coridor%20Cemnt%20Fabrica/Screenshot%202026-10-21%20093435.webp",
         "alt": "1 Furi Coridor Cemnt Fabrica - Screenshot 2026-10-21 093435"
       }
     ],
@@ -277,62 +277,62 @@ const baseArtworks = [
     "category": "collaborations",
     "categoryLabel": "Projects Done by Collaboration",
     "ownership": "collaborative",
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_02_14_47_17_IMG_1828.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_02_14_47_17_IMG_1828.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_02_14_47_17_IMG_1828.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_02_14_47_17_IMG_1828.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_02_14_47_17_IMG_1828.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_02_14_47_17_IMG_1828.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_02_14_47_17_IMG_1828.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_02_14_47_17_IMG_1828.webp",
         "alt": "2 Wenz Dar Project Entoto - 2026_02_02_14_47_17_IMG_1828"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_09_17_25_58_IMG_5069.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_09_17_25_58_IMG_5069.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_09_17_25_58_IMG_5069.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_09_17_25_58_IMG_5069.webp",
         "alt": "2 Wenz Dar Project Entoto - 2026_02_09_17_25_58_IMG_5069"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_09_17_26_01_IMG_5070.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_09_17_26_01_IMG_5070.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_09_17_26_01_IMG_5070.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_09_17_26_01_IMG_5070.webp",
         "alt": "2 Wenz Dar Project Entoto - 2026_02_09_17_26_01_IMG_5070"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_09_17_26_13_IMG_5071.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_09_17_26_13_IMG_5071.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_09_17_26_13_IMG_5071.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_09_17_26_13_IMG_5071.webp",
         "alt": "2 Wenz Dar Project Entoto - 2026_02_09_17_26_13_IMG_5071"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_09_17_27_09_IMG_5072.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_09_17_27_09_IMG_5072.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_09_17_27_09_IMG_5072.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_09_17_27_09_IMG_5072.webp",
         "alt": "2 Wenz Dar Project Entoto - 2026_02_09_17_27_09_IMG_5072"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_09_17_28_16_IMG_5075.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_09_17_28_16_IMG_5075.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_09_17_28_16_IMG_5075.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_09_17_28_16_IMG_5075.webp",
         "alt": "2 Wenz Dar Project Entoto - 2026_02_09_17_28_16_IMG_5075"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_22_17_04_15_IMG_5429.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_22_17_04_15_IMG_5429.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_22_17_04_15_IMG_5429.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/2026_02_22_17_04_15_IMG_5429.webp",
         "alt": "2 Wenz Dar Project Entoto - 2026_02_22_17_04_15_IMG_5429"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/Screenshot%202026-10-21%20093828.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/Screenshot%202026-10-21%20093828.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/Screenshot%202026-10-21%20093828.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/Screenshot%202026-10-21%20093828.webp",
         "alt": "2 Wenz Dar Project Entoto - Screenshot 2026-10-21 093828"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/Screenshot%202026-10-21%20093852.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/Screenshot%202026-10-21%20093852.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/Screenshot%202026-10-21%20093852.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/Screenshot%202026-10-21%20093852.webp",
         "alt": "2 Wenz Dar Project Entoto - Screenshot 2026-10-21 093852"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/Screenshot%202026-10-21%20093922.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/Screenshot%202026-10-21%20093922.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/Screenshot%202026-10-21%20093922.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/Screenshot%202026-10-21%20093922.webp",
         "alt": "2 Wenz Dar Project Entoto - Screenshot 2026-10-21 093922"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/Screenshot%202026-10-21%20093943.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/Screenshot%202026-10-21%20093943.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/Screenshot%202026-10-21%20093943.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/2%20Wenz%20Dar%20Project%20Entoto/Screenshot%202026-10-21%20093943.webp",
         "alt": "2 Wenz Dar Project Entoto - Screenshot 2026-10-21 093943"
       }
     ],
@@ -348,12 +348,12 @@ const baseArtworks = [
     "category": "collaborations",
     "categoryLabel": "Projects Done by Collaboration",
     "ownership": "collaborative",
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/3%20Afincho%20Ber%20Bridge/2026_02_12_13_48_58_IMG_5210.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/3%20Afincho%20Ber%20Bridge/2026_02_12_13_48_58_IMG_5210.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/3%20Afincho%20Ber%20Bridge/2026_02_12_13_48_58_IMG_5210.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/3%20Afincho%20Ber%20Bridge/2026_02_12_13_48_58_IMG_5210.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/3%20Afincho%20Ber%20Bridge/2026_02_12_13_48_58_IMG_5210.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/3%20Afincho%20Ber%20Bridge/2026_02_12_13_48_58_IMG_5210.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/3%20Afincho%20Ber%20Bridge/2026_02_12_13_48_58_IMG_5210.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/3%20Afincho%20Ber%20Bridge/2026_02_12_13_48_58_IMG_5210.webp",
         "alt": "3 Afincho Ber Bridge - 2026_02_12_13_48_58_IMG_5210"
       }
     ],
@@ -369,17 +369,17 @@ const baseArtworks = [
     "category": "collaborations",
     "categoryLabel": "Projects Done by Collaboration",
     "ownership": "collaborative",
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/4%20Picock%20Play%20Ground/Screenshot%202026-10-21%20094034.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/4%20Picock%20Play%20Ground/Screenshot%202026-10-21%20094034.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/4%20Picock%20Play%20Ground/Screenshot%202026-10-21%20094034.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/4%20Picock%20Play%20Ground/Screenshot%202026-10-21%20094034.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/4%20Picock%20Play%20Ground/Screenshot%202026-10-21%20094034.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/4%20Picock%20Play%20Ground/Screenshot%202026-10-21%20094034.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/4%20Picock%20Play%20Ground/Screenshot%202026-10-21%20094034.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/4%20Picock%20Play%20Ground/Screenshot%202026-10-21%20094034.webp",
         "alt": "4 Picock Play Ground - Screenshot 2026-10-21 094034"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/4%20Picock%20Play%20Ground/Screenshot%202026-10-21%20094105.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/4%20Picock%20Play%20Ground/Screenshot%202026-10-21%20094105.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/4%20Picock%20Play%20Ground/Screenshot%202026-10-21%20094105.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/4%20Picock%20Play%20Ground/Screenshot%202026-10-21%20094105.webp",
         "alt": "4 Picock Play Ground - Screenshot 2026-10-21 094105"
       }
     ],
@@ -395,32 +395,32 @@ const baseArtworks = [
     "category": "collaborations",
     "categoryLabel": "Projects Done by Collaboration",
     "ownership": "collaborative",
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/2026_02_16_11_01_05_IMG_1913.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/2026_02_16_11_01_05_IMG_1913.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/2026_02_16_11_01_05_IMG_1913.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/2026_02_16_11_01_05_IMG_1913.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/2026_02_16_11_01_05_IMG_1913.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/2026_02_16_11_01_05_IMG_1913.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/2026_02_16_11_01_05_IMG_1913.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/2026_02_16_11_01_05_IMG_1913.webp",
         "alt": "5 Piyassa Cark Park - 2026_02_16_11_01_05_IMG_1913"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/Screenshot%202026-10-21%20094146.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/Screenshot%202026-10-21%20094146.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/Screenshot%202026-10-21%20094146.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/Screenshot%202026-10-21%20094146.webp",
         "alt": "5 Piyassa Cark Park - Screenshot 2026-10-21 094146"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/Screenshot%202026-10-21%20094204.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/Screenshot%202026-10-21%20094204.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/Screenshot%202026-10-21%20094204.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/Screenshot%202026-10-21%20094204.webp",
         "alt": "5 Piyassa Cark Park - Screenshot 2026-10-21 094204"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/Screenshot%202026-10-21%20094223.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/Screenshot%202026-10-21%20094223.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/Screenshot%202026-10-21%20094223.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/Screenshot%202026-10-21%20094223.webp",
         "alt": "5 Piyassa Cark Park - Screenshot 2026-10-21 094223"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/Screenshot%202026-10-21%20094240.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/Screenshot%202026-10-21%20094240.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/Screenshot%202026-10-21%20094240.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/5%20Piyassa%20Cark%20Park/Screenshot%202026-10-21%20094240.webp",
         "alt": "5 Piyassa Cark Park - Screenshot 2026-10-21 094240"
       }
     ],
@@ -436,42 +436,42 @@ const baseArtworks = [
     "category": "collaborations",
     "categoryLabel": "Projects Done by Collaboration",
     "ownership": "collaborative",
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/2026_06_09_11_24_56_IMG_2353.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/2026_06_09_11_24_56_IMG_2353.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/2026_06_09_11_24_56_IMG_2353.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/2026_06_09_11_24_56_IMG_2353.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/2026_06_09_11_24_56_IMG_2353.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/2026_06_09_11_24_56_IMG_2353.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/2026_06_09_11_24_56_IMG_2353.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/2026_06_09_11_24_56_IMG_2353.webp",
         "alt": "6 Furi Coridor 2 - 2026_06_09_11_24_56_IMG_2353"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094710.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094710.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094710.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094710.webp",
         "alt": "6 Furi Coridor 2 - Screenshot 2026-10-21 094710"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094739.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094739.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094739.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094739.webp",
         "alt": "6 Furi Coridor 2 - Screenshot 2026-10-21 094739"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094800.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094800.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094800.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094800.webp",
         "alt": "6 Furi Coridor 2 - Screenshot 2026-10-21 094800"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094821.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094821.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094821.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094821.webp",
         "alt": "6 Furi Coridor 2 - Screenshot 2026-10-21 094821"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094842.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094842.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094842.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094842.webp",
         "alt": "6 Furi Coridor 2 - Screenshot 2026-10-21 094842"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094903.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094903.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094903.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/6%20Furi%20Coridor%202/Screenshot%202026-10-21%20094903.webp",
         "alt": "6 Furi Coridor 2 - Screenshot 2026-10-21 094903"
       }
     ],
@@ -487,37 +487,37 @@ const baseArtworks = [
     "category": "collaborations",
     "categoryLabel": "Projects Done by Collaboration",
     "ownership": "collaborative",
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/2026_05_17_09_41_06_IMG_2151.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/2026_05_17_09_41_06_IMG_2151.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/2026_05_17_09_41_06_IMG_2151.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/2026_05_17_09_41_06_IMG_2151.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/2026_05_17_09_41_06_IMG_2151.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/2026_05_17_09_41_06_IMG_2151.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/2026_05_17_09_41_06_IMG_2151.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/2026_05_17_09_41_06_IMG_2151.webp",
         "alt": "7 PIcock River - 2026_05_17_09_41_06_IMG_2151"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/2026_05_19_16_44_28_IMG_2262.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/2026_05_19_16_44_28_IMG_2262.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/2026_05_19_16_44_28_IMG_2262.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/2026_05_19_16_44_28_IMG_2262.webp",
         "alt": "7 PIcock River - 2026_05_19_16_44_28_IMG_2262"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/photo_1_2026-10-21_10-00-52.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/photo_1_2026-10-21_10-00-52.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/photo_1_2026-10-21_10-00-52.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/photo_1_2026-10-21_10-00-52.webp",
         "alt": "7 PIcock River - photo_1_2026-10-21_10-00-52"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/photo_2026-10-21_10-50-08.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/photo_2026-10-21_10-50-08.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/photo_2026-10-21_10-50-08.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/photo_2026-10-21_10-50-08.webp",
         "alt": "7 PIcock River - photo_2026-10-21_10-50-08"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/photo_2026-10-21_10-54-48.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/photo_2026-10-21_10-54-48.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/photo_2026-10-21_10-54-48.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/photo_2026-10-21_10-54-48.webp",
         "alt": "7 PIcock River - photo_2026-10-21_10-54-48"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/photo_2_2026-10-21_10-00-52.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/photo_2_2026-10-21_10-00-52.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/photo_2_2026-10-21_10-00-52.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/7%20PIcock%20River/photo_2_2026-10-21_10-00-52.webp",
         "alt": "7 PIcock River - photo_2_2026-10-21_10-00-52"
       }
     ],
@@ -533,62 +533,62 @@ const baseArtworks = [
     "category": "collaborations",
     "categoryLabel": "Projects Done by Collaboration",
     "ownership": "collaborative",
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_14_10_31_44_IMG_2214.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_14_10_31_44_IMG_2214.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_14_10_31_44_IMG_2214.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_14_10_31_44_IMG_2214.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_14_10_31_44_IMG_2214.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_14_10_31_44_IMG_2214.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_14_10_31_44_IMG_2214.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_14_10_31_44_IMG_2214.webp",
         "alt": "8 Ghion Park Line - 2026_05_14_10_31_44_IMG_2214"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_14_10_31_47_IMG_2215.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_14_10_31_47_IMG_2215.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_14_10_31_47_IMG_2215.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_14_10_31_47_IMG_2215.webp",
         "alt": "8 Ghion Park Line - 2026_05_14_10_31_47_IMG_2215"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_14_17_19_39_IMG_2219.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_14_17_19_39_IMG_2219.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_14_17_19_39_IMG_2219.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_14_17_19_39_IMG_2219.webp",
         "alt": "8 Ghion Park Line - 2026_05_14_17_19_39_IMG_2219"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_14_17_19_41_IMG_2220.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_14_17_19_41_IMG_2220.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_14_17_19_41_IMG_2220.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_14_17_19_41_IMG_2220.webp",
         "alt": "8 Ghion Park Line - 2026_05_14_17_19_41_IMG_2220"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_17_12_01_09_IMG_2223.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_17_12_01_09_IMG_2223.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_17_12_01_09_IMG_2223.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_17_12_01_09_IMG_2223.webp",
         "alt": "8 Ghion Park Line - 2026_05_17_12_01_09_IMG_2223"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_17_12_01_46_IMG_2224.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_17_12_01_46_IMG_2224.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_17_12_01_46_IMG_2224.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_17_12_01_46_IMG_2224.webp",
         "alt": "8 Ghion Park Line - 2026_05_17_12_01_46_IMG_2224"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_17_12_38_26_IMG_2233.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_17_12_38_26_IMG_2233.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_17_12_38_26_IMG_2233.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_17_12_38_26_IMG_2233.webp",
         "alt": "8 Ghion Park Line - 2026_05_17_12_38_26_IMG_2233"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_17_17_13_10_IMG_2234.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_17_17_13_10_IMG_2234.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_17_17_13_10_IMG_2234.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_17_17_13_10_IMG_2234.webp",
         "alt": "8 Ghion Park Line - 2026_05_17_17_13_10_IMG_2234"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_22_19_08_11_IMG_2285.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_22_19_08_11_IMG_2285.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_22_19_08_11_IMG_2285.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/2026_05_22_19_08_11_IMG_2285.webp",
         "alt": "8 Ghion Park Line - 2026_05_22_19_08_11_IMG_2285"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/photo_2026-10-21_10-54-46.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/photo_2026-10-21_10-54-46.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/photo_2026-10-21_10-54-46.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/photo_2026-10-21_10-54-46.webp",
         "alt": "8 Ghion Park Line - photo_2026-10-21_10-54-46"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/Screenshot%202026-10-21%20104530.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/Screenshot%202026-10-21%20104530.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/Screenshot%202026-10-21%20104530.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/8%20Ghion%20Park%20Line/Screenshot%202026-10-21%20104530.webp",
         "alt": "8 Ghion Park Line - Screenshot 2026-10-21 104530"
       }
     ],
@@ -604,17 +604,17 @@ const baseArtworks = [
     "category": "collaborations",
     "categoryLabel": "Projects Done by Collaboration",
     "ownership": "collaborative",
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/9%20Afincho%20Ber%20Underground%20Ground/photo_2026-10-21_10-50-03.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/9%20Afincho%20Ber%20Underground%20Ground/photo_2026-10-21_10-50-03.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/9%20Afincho%20Ber%20Underground%20Ground/photo_2026-10-21_10-50-03.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/9%20Afincho%20Ber%20Underground%20Ground/photo_2026-10-21_10-50-03.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/9%20Afincho%20Ber%20Underground%20Ground/photo_2026-10-21_10-50-03.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/9%20Afincho%20Ber%20Underground%20Ground/photo_2026-10-21_10-50-03.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/9%20Afincho%20Ber%20Underground%20Ground/photo_2026-10-21_10-50-03.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/9%20Afincho%20Ber%20Underground%20Ground/photo_2026-10-21_10-50-03.webp",
         "alt": "9 Afincho Ber Underground Ground - photo_2026-10-21_10-50-03"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/9%20Afincho%20Ber%20Underground%20Ground/Screenshot%202026-10-21%20104628.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/9%20Afincho%20Ber%20Underground%20Ground/Screenshot%202026-10-21%20104628.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/9%20Afincho%20Ber%20Underground%20Ground/Screenshot%202026-10-21%20104628.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/9%20Afincho%20Ber%20Underground%20Ground/Screenshot%202026-10-21%20104628.webp",
         "alt": "9 Afincho Ber Underground Ground - Screenshot 2026-10-21 104628"
       }
     ],
@@ -630,27 +630,27 @@ const baseArtworks = [
     "category": "collaborations",
     "categoryLabel": "Projects Done by Collaboration",
     "ownership": "collaborative",
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/10%20Andromeda%20School/2026_09_01_12_02_32_IMG_1447.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/10%20Andromeda%20School/2026_09_01_12_02_32_IMG_1447.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/10%20Andromeda%20School/2026_09_01_12_02_32_IMG_1447.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/10%20Andromeda%20School/2026_09_01_12_02_32_IMG_1447.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/10%20Andromeda%20School/2026_09_01_12_02_32_IMG_1447.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/10%20Andromeda%20School/2026_09_01_12_02_32_IMG_1447.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/10%20Andromeda%20School/2026_09_01_12_02_32_IMG_1447.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/10%20Andromeda%20School/2026_09_01_12_02_32_IMG_1447.webp",
         "alt": "10 Andromeda School - 2026_09_01_12_02_32_IMG_1447"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/10%20Andromeda%20School/photo_2026-10-21_09-58-32.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/10%20Andromeda%20School/photo_2026-10-21_09-58-32.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/10%20Andromeda%20School/photo_2026-10-21_09-58-32.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/10%20Andromeda%20School/photo_2026-10-21_09-58-32.webp",
         "alt": "10 Andromeda School - photo_2026-10-21_09-58-32"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/10%20Andromeda%20School/Screenshot%202026-10-21%20091244.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/10%20Andromeda%20School/Screenshot%202026-10-21%20091244.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/10%20Andromeda%20School/Screenshot%202026-10-21%20091244.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/10%20Andromeda%20School/Screenshot%202026-10-21%20091244.webp",
         "alt": "10 Andromeda School - Screenshot 2026-10-21 091244"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/10%20Andromeda%20School/Screenshot%202026-10-21%20091331.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/10%20Andromeda%20School/Screenshot%202026-10-21%20091331.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/10%20Andromeda%20School/Screenshot%202026-10-21%20091331.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/10%20Andromeda%20School/Screenshot%202026-10-21%20091331.webp",
         "alt": "10 Andromeda School - Screenshot 2026-10-21 091331"
       }
     ],
@@ -666,27 +666,27 @@ const baseArtworks = [
     "category": "collaborations",
     "categoryLabel": "Projects Done by Collaboration",
     "ownership": "collaborative",
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/11%20Habesha%20Beer/2026_10_09_11_49_17_IMG_2721.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/11%20Habesha%20Beer/2026_10_09_11_49_17_IMG_2721.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/11%20Habesha%20Beer/2026_10_09_11_49_17_IMG_2721.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/11%20Habesha%20Beer/2026_10_09_11_49_17_IMG_2721.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/11%20Habesha%20Beer/2026_10_09_11_49_17_IMG_2721.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/11%20Habesha%20Beer/2026_10_09_11_49_17_IMG_2721.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/11%20Habesha%20Beer/2026_10_09_11_49_17_IMG_2721.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/11%20Habesha%20Beer/2026_10_09_11_49_17_IMG_2721.webp",
         "alt": "11 Habesha Beer - 2026_10_09_11_49_17_IMG_2721"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/11%20Habesha%20Beer/Screenshot%202026-10-21%20105623.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/11%20Habesha%20Beer/Screenshot%202026-10-21%20105623.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/11%20Habesha%20Beer/Screenshot%202026-10-21%20105623.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/11%20Habesha%20Beer/Screenshot%202026-10-21%20105623.webp",
         "alt": "11 Habesha Beer - Screenshot 2026-10-21 105623"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/11%20Habesha%20Beer/Screenshot%202026-10-21%20105656.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/11%20Habesha%20Beer/Screenshot%202026-10-21%20105656.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/11%20Habesha%20Beer/Screenshot%202026-10-21%20105656.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/11%20Habesha%20Beer/Screenshot%202026-10-21%20105656.webp",
         "alt": "11 Habesha Beer - Screenshot 2026-10-21 105656"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/11%20Habesha%20Beer/Screenshot%202026-10-21%20105753.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/11%20Habesha%20Beer/Screenshot%202026-10-21%20105753.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/11%20Habesha%20Beer/Screenshot%202026-10-21%20105753.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/11%20Habesha%20Beer/Screenshot%202026-10-21%20105753.webp",
         "alt": "11 Habesha Beer - Screenshot 2026-10-21 105753"
       }
     ],
@@ -702,22 +702,22 @@ const baseArtworks = [
     "category": "collaborations",
     "categoryLabel": "Projects Done by Collaboration",
     "ownership": "collaborative",
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/12%20Ghion%20Skate/2026_07_29_12_25_06_IMG_0356.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/12%20Ghion%20Skate/2026_07_29_12_25_06_IMG_0356.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/12%20Ghion%20Skate/2026_07_29_12_25_06_IMG_0356.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/12%20Ghion%20Skate/2026_07_29_12_25_06_IMG_0356.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/12%20Ghion%20Skate/2026_07_29_12_25_06_IMG_0356.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/12%20Ghion%20Skate/2026_07_29_12_25_06_IMG_0356.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/12%20Ghion%20Skate/2026_07_29_12_25_06_IMG_0356.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/12%20Ghion%20Skate/2026_07_29_12_25_06_IMG_0356.webp",
         "alt": "12 Ghion Skate - 2026_07_29_12_25_06_IMG_0356"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/12%20Ghion%20Skate/2026_07_29_12_25_28_IMG_0357.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/12%20Ghion%20Skate/2026_07_29_12_25_28_IMG_0357.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/12%20Ghion%20Skate/2026_07_29_12_25_28_IMG_0357.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/12%20Ghion%20Skate/2026_07_29_12_25_28_IMG_0357.webp",
         "alt": "12 Ghion Skate - 2026_07_29_12_25_28_IMG_0357"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/12%20Ghion%20Skate/2026_07_29_12_26_36_IMG_0363.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/12%20Ghion%20Skate/2026_07_29_12_26_36_IMG_0363.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/12%20Ghion%20Skate/2026_07_29_12_26_36_IMG_0363.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Projects%20done%20by%20colab/12%20Ghion%20Skate/2026_07_29_12_26_36_IMG_0363.webp",
         "alt": "12 Ghion Skate - 2026_07_29_12_26_36_IMG_0363"
       }
     ],
@@ -733,17 +733,17 @@ const baseArtworks = [
     "category": "small-projects",
     "categoryLabel": "Small Mural Art Gallery",
     "ownership": null,
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/1%20Kiyta%20Bag/2025_12_04_21_17_39_IMG_2537.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/1%20Kiyta%20Bag/2025_12_04_21_17_39_IMG_2537.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/1%20Kiyta%20Bag/2025_12_04_21_17_39_IMG_2537.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/1%20Kiyta%20Bag/2025_12_04_21_17_39_IMG_2537.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/1%20Kiyta%20Bag/2025_12_04_21_17_39_IMG_2537.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/1%20Kiyta%20Bag/2025_12_04_21_17_39_IMG_2537.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/1%20Kiyta%20Bag/2025_12_04_21_17_39_IMG_2537.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/1%20Kiyta%20Bag/2025_12_04_21_17_39_IMG_2537.webp",
         "alt": "1 Kiyta Bag - 2025_12_04_21_17_39_IMG_2537"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/1%20Kiyta%20Bag/2025_12_04_21_46_26_IMG_3151.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/1%20Kiyta%20Bag/2025_12_04_21_46_26_IMG_3151.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/1%20Kiyta%20Bag/2025_12_04_21_46_26_IMG_3151.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/1%20Kiyta%20Bag/2025_12_04_21_46_26_IMG_3151.webp",
         "alt": "1 Kiyta Bag - 2025_12_04_21_46_26_IMG_3151"
       }
     ],
@@ -759,17 +759,17 @@ const baseArtworks = [
     "category": "small-projects",
     "categoryLabel": "Small Mural Art Gallery",
     "ownership": null,
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/2%20Revive%20Coffee/2025_12_12_21_36_18_IMG_1697.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/2%20Revive%20Coffee/2025_12_12_21_36_18_IMG_1697.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/2%20Revive%20Coffee/2025_12_12_21_36_18_IMG_1697.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/2%20Revive%20Coffee/2025_12_12_21_36_18_IMG_1697.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/2%20Revive%20Coffee/2025_12_12_21_36_18_IMG_1697.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/2%20Revive%20Coffee/2025_12_12_21_36_18_IMG_1697.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/2%20Revive%20Coffee/2025_12_12_21_36_18_IMG_1697.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/2%20Revive%20Coffee/2025_12_12_21_36_18_IMG_1697.webp",
         "alt": "2 Revive Coffee - 2025_12_12_21_36_18_IMG_1697"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/2%20Revive%20Coffee/Screenshot%202026-10-21%20092010.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/2%20Revive%20Coffee/Screenshot%202026-10-21%20092010.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/2%20Revive%20Coffee/Screenshot%202026-10-21%20092010.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/2%20Revive%20Coffee/Screenshot%202026-10-21%20092010.webp",
         "alt": "2 Revive Coffee - Screenshot 2026-10-21 092010"
       }
     ],
@@ -785,12 +785,12 @@ const baseArtworks = [
     "category": "small-projects",
     "categoryLabel": "Small Mural Art Gallery",
     "ownership": null,
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/3%20Liyu%20Bonda/Screenshot%202026-10-21%20091437.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/3%20Liyu%20Bonda/Screenshot%202026-10-21%20091437.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/3%20Liyu%20Bonda/Screenshot%202026-10-21%20091437.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/3%20Liyu%20Bonda/Screenshot%202026-10-21%20091437.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/3%20Liyu%20Bonda/Screenshot%202026-10-21%20091437.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/3%20Liyu%20Bonda/Screenshot%202026-10-21%20091437.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/3%20Liyu%20Bonda/Screenshot%202026-10-21%20091437.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/3%20Liyu%20Bonda/Screenshot%202026-10-21%20091437.webp",
         "alt": "3 Liyu Bonda - Screenshot 2026-10-21 091437"
       }
     ],
@@ -806,12 +806,12 @@ const baseArtworks = [
     "category": "small-projects",
     "categoryLabel": "Small Mural Art Gallery",
     "ownership": null,
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/4%20Emu%20Advert/2025_12_22_21_56_30_IMG_1128.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/4%20Emu%20Advert/2025_12_22_21_56_30_IMG_1128.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/4%20Emu%20Advert/2025_12_22_21_56_30_IMG_1128.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/4%20Emu%20Advert/2025_12_22_21_56_30_IMG_1128.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/4%20Emu%20Advert/2025_12_22_21_56_30_IMG_1128.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/4%20Emu%20Advert/2025_12_22_21_56_30_IMG_1128.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/4%20Emu%20Advert/2025_12_22_21_56_30_IMG_1128.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/4%20Emu%20Advert/2025_12_22_21_56_30_IMG_1128.webp",
         "alt": "4 Emu Advert - 2025_12_22_21_56_30_IMG_1128"
       }
     ],
@@ -827,17 +827,17 @@ const baseArtworks = [
     "category": "small-projects",
     "categoryLabel": "Small Mural Art Gallery",
     "ownership": null,
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/5%20My%20Design/2025_12_28_19_25_48_IMG_1263.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/5%20My%20Design/2025_12_28_19_25_48_IMG_1263.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/5%20My%20Design/2025_12_28_19_25_48_IMG_1263.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/5%20My%20Design/2025_12_28_19_25_48_IMG_1263.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/5%20My%20Design/2025_12_28_19_25_48_IMG_1263.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/5%20My%20Design/2025_12_28_19_25_48_IMG_1263.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/5%20My%20Design/2025_12_28_19_25_48_IMG_1263.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/5%20My%20Design/2025_12_28_19_25_48_IMG_1263.webp",
         "alt": "5 My Design - 2025_12_28_19_25_48_IMG_1263"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/5%20My%20Design/Screenshot%202026-10-21%20091525.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/5%20My%20Design/Screenshot%202026-10-21%20091525.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/5%20My%20Design/Screenshot%202026-10-21%20091525.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/5%20My%20Design/Screenshot%202026-10-21%20091525.webp",
         "alt": "5 My Design - Screenshot 2026-10-21 091525"
       }
     ],
@@ -853,17 +853,17 @@ const baseArtworks = [
     "category": "small-projects",
     "categoryLabel": "Small Mural Art Gallery",
     "ownership": null,
-    "image": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/6%20Barkon%20Gym/2026_06_12_15_03_48_IMG_2436.jpg",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/6%20Barkon%20Gym/2026_06_12_15_03_48_IMG_2436.jpg",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/6%20Barkon%20Gym/2026_06_12_15_03_48_IMG_2436.jpg",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/6%20Barkon%20Gym/2026_06_12_15_03_48_IMG_2436.jpg",
     "images": [],
     "videos": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/6%20Barkon%20Gym/2026_06_12_15_03_48_IMG_2436.mp4",
-        "poster": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/6%20Barkon%20Gym/2026_06_12_15_03_48_IMG_2436.jpg"
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/6%20Barkon%20Gym/2026_06_12_15_03_48_IMG_2436.mp4",
+        "poster": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/6%20Barkon%20Gym/2026_06_12_15_03_48_IMG_2436.jpg"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/6%20Barkon%20Gym/2026_06_17_15_55_06_IMG_2608.mp4",
-        "poster": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/6%20Barkon%20Gym/2026_06_17_15_55_06_IMG_2608.jpg"
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/6%20Barkon%20Gym/2026_06_17_15_55_06_IMG_2608.mp4",
+        "poster": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/6%20Barkon%20Gym/2026_06_17_15_55_06_IMG_2608.jpg"
       }
     ],
     "description": "",
@@ -877,29 +877,29 @@ const baseArtworks = [
     "category": "small-projects",
     "categoryLabel": "Small Mural Art Gallery",
     "ownership": null,
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_33_45_IMG_0956.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_33_45_IMG_0956.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_33_45_IMG_0956.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_33_45_IMG_0956.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_33_45_IMG_0956.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_33_45_IMG_0956.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_33_45_IMG_0956.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_33_45_IMG_0956.webp",
         "alt": "7 HomeGym Ermi - 2025_12_11_11_33_45_IMG_0956"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_33_57_IMG_0958.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_33_57_IMG_0958.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_33_57_IMG_0958.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_33_57_IMG_0958.webp",
         "alt": "7 HomeGym Ermi - 2025_12_11_11_33_57_IMG_0958"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/Screenshot%202026-10-21%20091858.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/Screenshot%202026-10-21%20091858.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/Screenshot%202026-10-21%20091858.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/Screenshot%202026-10-21%20091858.webp",
         "alt": "7 HomeGym Ermi - Screenshot 2026-10-21 091858"
       }
     ],
     "videos": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_20_49_IMG_3117.mp4",
-        "poster": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_20_49_IMG_3117.jpg"
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_20_49_IMG_3117.mp4",
+        "poster": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_20_49_IMG_3117.jpg"
       }
     ],
     "description": "",
@@ -913,42 +913,42 @@ const baseArtworks = [
     "category": "small-projects",
     "categoryLabel": "Small Mural Art Gallery",
     "ownership": null,
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/2025_12_20_22_07_56_IMG_1660.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/2025_12_20_22_07_56_IMG_1660.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/2025_12_20_22_07_56_IMG_1660.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/2025_12_20_22_07_56_IMG_1660.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/2025_12_20_22_07_56_IMG_1660.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/2025_12_20_22_07_56_IMG_1660.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/2025_12_20_22_07_56_IMG_1660.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/2025_12_20_22_07_56_IMG_1660.webp",
         "alt": "8 Kb - 2025_12_20_22_07_56_IMG_1660"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092220.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092220.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092220.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092220.webp",
         "alt": "8 Kb - Screenshot 2026-10-21 092220"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092240.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092240.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092240.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092240.webp",
         "alt": "8 Kb - Screenshot 2026-10-21 092240"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092300.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092300.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092300.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092300.webp",
         "alt": "8 Kb - Screenshot 2026-10-21 092300"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092330.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092330.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092330.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092330.webp",
         "alt": "8 Kb - Screenshot 2026-10-21 092330"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092344.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092344.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092344.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092344.webp",
         "alt": "8 Kb - Screenshot 2026-10-21 092344"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092405.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092405.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092405.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/8%20Kb/Screenshot%202026-10-21%20092405.webp",
         "alt": "8 Kb - Screenshot 2026-10-21 092405"
       }
     ],
@@ -964,199 +964,199 @@ const baseArtworks = [
     "category": "advertising-printing",
     "categoryLabel": "Advertising and Printing",
     "ownership": null,
-    "image": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_06_12_18_38_15_IMG_0017.webp",
-    "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_06_12_18_38_15_IMG_0017.webp",
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_06_12_18_38_15_IMG_0017.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_06_12_18_38_15_IMG_0017.webp",
     "images": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_06_12_18_38_15_IMG_0017.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_06_12_18_38_15_IMG_0017.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_06_12_18_38_15_IMG_0017.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_06_12_18_38_15_IMG_0017.webp",
         "alt": "Advert and Printing - 2023_06_12_18_38_15_IMG_0017"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_06_20_10_18_40_IMG_0025.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_06_20_10_18_40_IMG_0025.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_06_20_10_18_40_IMG_0025.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_06_20_10_18_40_IMG_0025.webp",
         "alt": "Advert and Printing - 2023_06_20_10_18_40_IMG_0025"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_07_21_09_54_32_IMG_0052.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_07_21_09_54_32_IMG_0052.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_07_21_09_54_32_IMG_0052.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_07_21_09_54_32_IMG_0052.webp",
         "alt": "Advert and Printing - 2023_07_21_09_54_32_IMG_0052"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_08_01_12_39_25_IMG_0055.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_08_01_12_39_25_IMG_0055.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_08_01_12_39_25_IMG_0055.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_08_01_12_39_25_IMG_0055.webp",
         "alt": "Advert and Printing - 2023_08_01_12_39_25_IMG_0055"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_08_09_16_58_39_IMG_0063.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_08_09_16_58_39_IMG_0063.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_08_09_16_58_39_IMG_0063.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_08_09_16_58_39_IMG_0063.webp",
         "alt": "Advert and Printing - 2023_08_09_16_58_39_IMG_0063"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_08_18_15_27_12_IMG_0066.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_08_18_15_27_12_IMG_0066.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_08_18_15_27_12_IMG_0066.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_08_18_15_27_12_IMG_0066.webp",
         "alt": "Advert and Printing - 2023_08_18_15_27_12_IMG_0066"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_08_18_15_27_31_IMG_0067.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_08_18_15_27_31_IMG_0067.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_08_18_15_27_31_IMG_0067.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_08_18_15_27_31_IMG_0067.webp",
         "alt": "Advert and Printing - 2023_08_18_15_27_31_IMG_0067"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_08_18_15_27_42_IMG_0068.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_08_18_15_27_42_IMG_0068.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_08_18_15_27_42_IMG_0068.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_08_18_15_27_42_IMG_0068.webp",
         "alt": "Advert and Printing - 2023_08_18_15_27_42_IMG_0068"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_10_16_16_13_34_IMG_0110.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_10_16_16_13_34_IMG_0110.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_10_16_16_13_34_IMG_0110.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_10_16_16_13_34_IMG_0110.webp",
         "alt": "Advert and Printing - 2023_10_16_16_13_34_IMG_0110"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_12_14_15_45_37_IMG_0158.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_12_14_15_45_37_IMG_0158.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_12_14_15_45_37_IMG_0158.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_12_14_15_45_37_IMG_0158.webp",
         "alt": "Advert and Printing - 2023_12_14_15_45_37_IMG_0158"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_12_14_15_45_39_IMG_0159.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_12_14_15_45_39_IMG_0159.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_12_14_15_45_39_IMG_0159.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_12_14_15_45_39_IMG_0159.webp",
         "alt": "Advert and Printing - 2023_12_14_15_45_39_IMG_0159"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_01_11_15_26_20_IMG_0209.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_01_11_15_26_20_IMG_0209.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_01_11_15_26_20_IMG_0209.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_01_11_15_26_20_IMG_0209.webp",
         "alt": "Advert and Printing - 2024_01_11_15_26_20_IMG_0209"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_05_29_11_24_28_IMG_0276.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_05_29_11_24_28_IMG_0276.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_05_29_11_24_28_IMG_0276.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_05_29_11_24_28_IMG_0276.webp",
         "alt": "Advert and Printing - 2024_05_29_11_24_28_IMG_0276"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_09_20_17_29_58_IMG_0310.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_09_20_17_29_58_IMG_0310.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_09_20_17_29_58_IMG_0310.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_09_20_17_29_58_IMG_0310.webp",
         "alt": "Advert and Printing - 2024_09_20_17_29_58_IMG_0310"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_09_20_17_30_52_IMG_0313.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_09_20_17_30_52_IMG_0313.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_09_20_17_30_52_IMG_0313.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_09_20_17_30_52_IMG_0313.webp",
         "alt": "Advert and Printing - 2024_09_20_17_30_52_IMG_0313"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_09_20_17_31_00_IMG_0314.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_09_20_17_31_00_IMG_0314.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_09_20_17_31_00_IMG_0314.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_09_20_17_31_00_IMG_0314.webp",
         "alt": "Advert and Printing - 2024_09_20_17_31_00_IMG_0314"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_09_20_17_31_06_IMG_0316.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_09_20_17_31_06_IMG_0316.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_09_20_17_31_06_IMG_0316.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_09_20_17_31_06_IMG_0316.webp",
         "alt": "Advert and Printing - 2024_09_20_17_31_06_IMG_0316"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_11_23_13_13_52_IMG_0327.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_11_23_13_13_52_IMG_0327.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_11_23_13_13_52_IMG_0327.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_11_23_13_13_52_IMG_0327.webp",
         "alt": "Advert and Printing - 2024_11_23_13_13_52_IMG_0327"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_01_04_19_54_07_IMG_0335.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_01_04_19_54_07_IMG_0335.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_01_04_19_54_07_IMG_0335.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_01_04_19_54_07_IMG_0335.webp",
         "alt": "Advert and Printing - 2025_01_04_19_54_07_IMG_0335"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_05_03_12_38_02_IMG_0387.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_05_03_12_38_02_IMG_0387.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_05_03_12_38_02_IMG_0387.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_05_03_12_38_02_IMG_0387.webp",
         "alt": "Advert and Printing - 2025_05_03_12_38_02_IMG_0387"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_05_03_12_38_08_IMG_0388.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_05_03_12_38_08_IMG_0388.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_05_03_12_38_08_IMG_0388.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_05_03_12_38_08_IMG_0388.webp",
         "alt": "Advert and Printing - 2025_05_03_12_38_08_IMG_0388"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_05_26_13_16_32_IMG_0414.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_05_26_13_16_32_IMG_0414.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_05_26_13_16_32_IMG_0414.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_05_26_13_16_32_IMG_0414.webp",
         "alt": "Advert and Printing - 2025_05_26_13_16_32_IMG_0414"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_06_14_16_00_24_IMG_0426.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_06_14_16_00_24_IMG_0426.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_06_14_16_00_24_IMG_0426.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_06_14_16_00_24_IMG_0426.webp",
         "alt": "Advert and Printing - 2025_06_14_16_00_24_IMG_0426"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_06_16_11_38_14_IMG_0432.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_06_16_11_38_14_IMG_0432.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_06_16_11_38_14_IMG_0432.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_06_16_11_38_14_IMG_0432.webp",
         "alt": "Advert and Printing - 2025_06_16_11_38_14_IMG_0432"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_07_11_19_34_39_IMG_0483.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_07_11_19_34_39_IMG_0483.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_07_11_19_34_39_IMG_0483.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_07_11_19_34_39_IMG_0483.webp",
         "alt": "Advert and Printing - 2025_07_11_19_34_39_IMG_0483"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_07_12_11_25_28_IMG_0486.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_07_12_11_25_28_IMG_0486.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_07_12_11_25_28_IMG_0486.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_07_12_11_25_28_IMG_0486.webp",
         "alt": "Advert and Printing - 2025_07_12_11_25_28_IMG_0486"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_08_08_15_08_23_IMG_0496.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_08_08_15_08_23_IMG_0496.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_08_08_15_08_23_IMG_0496.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_08_08_15_08_23_IMG_0496.webp",
         "alt": "Advert and Printing - 2025_08_08_15_08_23_IMG_0496"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_11_28_15_59_48_IMG_2446.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_11_28_15_59_48_IMG_2446.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_11_28_15_59_48_IMG_2446.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_11_28_15_59_48_IMG_2446.webp",
         "alt": "Advert and Printing - 2025_11_28_15_59_48_IMG_2446"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_11_28_16_00_13_IMG_2449.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_11_28_16_00_13_IMG_2449.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_11_28_16_00_13_IMG_2449.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2025_11_28_16_00_13_IMG_2449.webp",
         "alt": "Advert and Printing - 2025_11_28_16_00_13_IMG_2449"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2026_03_16_15_34_58_IMG_5964.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2026_03_16_15_34_58_IMG_5964.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2026_03_16_15_34_58_IMG_5964.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2026_03_16_15_34_58_IMG_5964.webp",
         "alt": "Advert and Printing - 2026_03_16_15_34_58_IMG_5964"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20084821.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20084821.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20084821.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20084821.webp",
         "alt": "Advert and Printing - Screenshot 2026-10-21 084821"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20084919.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20084919.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20084919.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20084919.webp",
         "alt": "Advert and Printing - Screenshot 2026-10-21 084919"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20084951.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20084951.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20084951.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20084951.webp",
         "alt": "Advert and Printing - Screenshot 2026-10-21 084951"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20085012.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20085012.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20085012.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20085012.webp",
         "alt": "Advert and Printing - Screenshot 2026-10-21 085012"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20085155.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20085155.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20085155.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20085155.webp",
         "alt": "Advert and Printing - Screenshot 2026-10-21 085155"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20085242.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20085242.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20085242.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20085242.webp",
         "alt": "Advert and Printing - Screenshot 2026-10-21 085242"
       },
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20085310.webp",
-        "thumbnail": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20085310.webp",
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20085310.webp",
+        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/Screenshot%202026-10-21%20085310.webp",
         "alt": "Advert and Printing - Screenshot 2026-10-21 085310"
       }
     ],
     "videos": [
       {
-        "src": "/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_01_11_15_26_34_IMG_0212.mp4",
-        "poster": "/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_01_11_15_26_34_IMG_0212.jpg"
+        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_01_11_15_26_34_IMG_0212.mp4",
+        "poster": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2024_01_11_15_26_34_IMG_0212.jpg"
       }
     ],
     "description": "",
@@ -1172,7 +1172,7 @@ const mediaUrl = (folder, file, thumbnail = false) => {
     .map((segment) => encodeURIComponent(segment))
     .join('/');
 
-  return `/portfolio-media/${thumbnail ? '_thumbnails/' : ''}${path}`;
+  return `https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/${thumbnail ? '_thumbnails/' : ''}${path}`;
 };
 
 const additionalProject = ({ id, title, sourceFolder, displayOrder, images, videos }) => {
