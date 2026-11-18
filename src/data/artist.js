@@ -1,7 +1,7 @@
 export const artistInfo = {
   name: "Mr Jon Creates",
   tagline: "Art without Boundaries.",
-  profileImage: "/portfolio-media/Mr%20Jon/Mrr%20Jon/profiel/photo_6046325445029990635_w.jpg",
+  profileImage: "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/profiel/photo_6046325445029990635_w.jpg",
   biography: `For the past five years, my focus has been crafting striking graphic designs and large-scale murals that capture attention. But my passion lies in pushing creative boundaries: I am honored to be the first artist in Ethiopia to leverage Meta Quest VR to design and execute large-scale mural projects.
 
 Art is best shared—I frequently collaborate with creators across industries to fuse traditional artistry with modern digital techniques, crafting visual narratives that resonate deeply and stand out.`,

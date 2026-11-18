@@ -23,7 +23,7 @@ export default function Hero({ onExploreClick, onContactClick }) {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-near-black/60 via-near-black/40 to-near-black/90 z-10" />
         <img
-          src="/portfolio-media/Mr%20Jon/Mrr%20Jon/main%20page/For%20Front%20Page.webp"
+          src="https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/main%20page/For%20Front%20Page.webp"
           alt="Artist working on a wall mural"
           className="w-full h-full object-cover object-[center_45%]"
         />
