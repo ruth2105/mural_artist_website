@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import MobileMenu from './MobileMenu';
+import { artistInfo } from '../data/artist';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -24,6 +25,7 @@ export default function Navbar() {
 
   const navLinks = [
     { label: 'WORK', id: 'work' },
+    { label: 'FILMS', id: 'behind-the-art' },
     { label: 'ABOUT', id: 'about' },
     { label: 'SERVICES', id: 'services' },
     { label: 'CONTACT', id: 'contact' }
@@ -46,9 +48,9 @@ export default function Navbar() {
             {/* Logo */}
             <button
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-              className="text-warm-white font-display text-xl md:text-2xl font-bold tracking-tight hover:opacity-70 transition-opacity"
+              className="text-warm-white font-stencil text-lg md:text-xl tracking-[0.04em] hover:opacity-70 transition-opacity"
             >
-              MR. JON
+              {artistInfo.name}
             </button>
 
             {/* Desktop Navigation */}
@@ -63,14 +65,6 @@ export default function Navbar() {
                   <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-warm-white transition-all duration-300 group-hover:w-full" />
                 </button>
               ))}
-              <a
-                href="https://www.instagram.com/mr_jon24/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-warm-white text-sm font-medium tracking-wider hover:opacity-70 transition-opacity"
-              >
-                INSTAGRAM
-              </a>
             </div>
 
             {/* Mobile Menu Button */}

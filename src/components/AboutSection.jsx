@@ -7,26 +7,23 @@ export default function AboutSection() {
   const isInView = useInView(ref, { once: true, amount: 0.3 });
 
   return (
-    <section id="about" ref={ref} className="relative py-24 md:py-32 bg-warm-white">
+    <section id="about" ref={ref} className="relative overflow-x-clip py-24 md:py-32 bg-warm-white">
       <div className="max-w-6xl mx-auto px-6 md:px-12">
         <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
-          {/* Image Side */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="relative"
           >
-            <div className="aspect-[3/4] bg-charcoal/10 overflow-hidden">
+            <div className="aspect-[3/4] bg-near-black">
               <img
-                src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80"
-                alt="Artist portrait placeholder"
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                src={artistInfo.profileImage}
+                alt="Mr Jon painting a mural"
+                loading="lazy"
+                decoding="async"
+                className="block h-full w-full object-cover object-center"
               />
-            </div>
-            <div className="absolute -bottom-6 -right-6 bg-near-black text-warm-white p-8">
-              <p className="text-sm uppercase tracking-wider mb-1">Since</p>
-              <p className="text-4xl font-display font-bold">2019</p>
             </div>
           </motion.div>
 

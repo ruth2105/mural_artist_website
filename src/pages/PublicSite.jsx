@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Introduction from '../components/Introduction';
 import ArtworkGallery from '../components/ArtworkGallery';
+import VideoGallery from '../components/VideoGallery';
 import ProjectViewer from '../components/ProjectViewer';
 import AboutSection from '../components/AboutSection';
 import ProcessSection from '../components/ProcessSection';
@@ -41,6 +42,7 @@ export default function PublicSite() {
           <Hero />
           <Introduction />
           <ArtworkGallery onProjectClick={handleProjectClick} />
+          <VideoGallery onProjectClick={handleProjectClick} />
           <AboutSection />
           <ProcessSection />
           <ServicesSection />

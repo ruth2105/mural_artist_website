@@ -20,48 +20,19 @@ export default function Dashboard() {
 
   const fetchDashboardData = async () => {
     try {
-      // DEMO MODE: Use sample stats
-      const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-      const isDemo = !supabaseUrl || supabaseUrl.includes('your-project');
-      
-      if (isDemo) {
+      if (!supabase) {
         setStats({
-          totalArtworks: 12,
-          publishedArtworks: 10,
-          draftArtworks: 2,
-          totalInquiries: 5,
-          newInquiries: 2,
+          totalArtworks: 0,
+          publishedArtworks: 0,
+          draftArtworks: 0,
+          totalInquiries: 0,
+          newInquiries: 0,
         });
-        
-        setRecentArtworks([
-          {
-            id: '1',
-            title: 'Unity Through Colors',
-            status: 'published',
-            main_image_url: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800',
-            created_at: '2024-01-15T00:00:00Z'
-          },
-          {
-            id: '2',
-            title: 'Ethiopian Coffee Brand',
-            status: 'published',
-            main_image_url: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800',
-            created_at: '2024-02-10T00:00:00Z'
-          },
-          {
-            id: '3',
-            title: 'Future City Concept',
-            status: 'draft',
-            main_image_url: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800',
-            created_at: '2024-03-05T00:00:00Z'
-          },
-        ]);
-        
+        setRecentArtworks([]);
         setLoading(false);
         return;
       }
 
-      // Fetch artwork stats
       const { data: artworks } = await supabase
         .from('artworks')
         .select('id, status');
@@ -87,6 +58,14 @@ export default function Dashboard() {
       setRecentArtworks(recent || []);
     } catch (error) {
       console.error('Error fetching dashboard data:', error);
+      setStats({
+        totalArtworks: 0,
+        publishedArtworks: 0,
+        draftArtworks: 0,
+        totalInquiries: 0,
+        newInquiries: 0,
+      });
+      setRecentArtworks([]);
     } finally {
       setLoading(false);
     }

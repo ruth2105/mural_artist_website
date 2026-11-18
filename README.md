@@ -1,19 +1,12 @@
-# MR. JON - Premium Artist Portfolio with CMS
+# MR. JON - Premium Artist Portfolio
 
-A production-quality, custom-designed portfolio website for Ethiopian visual artist Mr. Jon, featuring a **complete content management system (CMS)** that allows the artist to upload and manage artwork without any coding knowledge.
+A curated, responsive artist portfolio featuring client-provided artwork and project films.
 
-## 🎉 NEW: FULLY EDITABLE PORTFOLIO
+## Current CMS status
 
-**Mr. Jon can now:**
-- ✅ Log in to admin dashboard
-- ✅ Upload artwork with drag & drop
-- ✅ Add/edit/delete projects
-- ✅ Publish content instantly
-- ✅ Manage inquiries
-- ✅ Update profile and services
-- ✅ **No developer needed!**
+The public gallery currently uses static project data and media in `public/portfolio-media`. Supabase authentication and admin pages are present, but the CMS is **not production-ready**: the live database is missing tables used by some admin pages, inquiry fields do not fully match the checked-in schema, and publishing from the admin has not been verified to update the public gallery.
 
-**Public website updates automatically** when content is published through the admin dashboard.
+Do not rely on admin uploads, profile/service editing, or inquiry management as working until the database schema and policies are reconciled and those workflows are tested end to end. See `FINAL_PORTFOLIO_AUDIT.md` for the tested findings.
 
 ---
 
@@ -35,14 +28,9 @@ This is a distinctive digital art experience featuring:
 
 ## 📋 Features
 
-### For the Artist (Admin Dashboard)
-- 🔐 **Secure Authentication** - Protected admin area
-- 📤 **Drag & Drop Upload** - Easy image uploads (max 10MB)
-- ✏️ **Content Management** - Add, edit, delete artwork
-- 📝 **Draft & Publish** - Preview before going live
-- 📧 **Inquiry Management** - View commission form submissions
-- 👤 **Profile Editor** - Update bio, skills, contact info
-- 📱 **Mobile Friendly** - Manage from phone or computer
+### Admin dashboard
+- Admin routes redirect unauthenticated visitors to the login page.
+- Supabase-backed admin features are incomplete and require database and end-to-end verification before production use.
 
 ### For Website Visitors
 
@@ -122,14 +110,9 @@ Visit:
 - **Public site:** http://localhost:3000
 - **Admin login:** http://localhost:3000/admin/login
 
-### 5. Test the CMS
+### 5. CMS readiness
 
-1. Log in with your admin credentials
-2. Upload a test artwork
-3. Publish it
-4. Check if it appears on the public site
-
-**See `CMS_SETUP_GUIDE.md` for detailed instructions.**
+The admin UI is not ready for production content management. Reconcile the deployed database schema, configure and review its access policies, then test authentication, uploads, CRUD, publication, and inquiry submission before relying on the CMS.
 
 ---
 
@@ -192,64 +175,13 @@ mr-jon-portfolio/
 
 **URL:** `https://yoursite.com/admin/login`
 
-**Features:**
-- Dashboard with stats
-- Add/Edit/Delete artwork
-- Upload images (drag & drop)
-- Manage categories
-- View commission inquiries
-- Edit artist profile
-- Update services
-
-### Security
-
-- ✅ Authentication required
-- ✅ Row Level Security (RLS)
-- ✅ Protected routes
-- ✅ Secure file storage
-- ✅ Environment variables
-
-**Only authenticated admin users can:**
-- Create, edit, delete content
-- Upload files
-- View draft content
-- Access admin dashboard
-
-**Public visitors can only:**
-- View published artworks
-- Submit commission forms
+Admin routes require an authenticated Supabase session. This protects the UI route only; database and storage authorization depend on correctly configured Supabase policies. The live CMS has not passed end-to-end tests, so do not treat the dashboard as a verified content-management system.
 
 ---
 
 ## 🎨 How It Works
 
-### Content Flow:
-
-```
-Admin Dashboard
-    ↓
-Upload & Edit Artwork
-    ↓
-Save to Supabase Database
-    ↓
-Store Images in Supabase Storage
-    ↓
-Publish Status = "published"
-    ↓
-Public Website Queries Database
-    ↓
-Artwork Appears in Gallery
-```
-
-### No Rebuilds Required!
-
-Unlike static sites, this portfolio is **fully dynamic**:
-
-- Artist uploads artwork → Appears instantly on site
-- No code changes needed
-- No redeployment required
-- Draft content stays private
-- Published content goes live immediately
+The current public gallery is statically defined in `src/data/artworks.js` and served from `public/portfolio-media`. Admin publishing is not yet connected to that gallery; changes to static projects require a code change and deployment.
 
 ---
 
@@ -431,16 +363,11 @@ Update in `src/data/artist.js`
 
 ## ⚠️ Important Notes
 
-### Email Address
-The email address in the brief (`Yohannessheferaw024`) is incomplete. Please provide the full email address to update in:
-- `src/data/artist.js`
-- `src/components/ContactSection.jsx`
-
-### Artist Portrait
-Replace the placeholder portrait image in `AboutSection.jsx` with an actual photo of Mr. Jon.
+### Contact and Portrait
+Only use contact details and portrait images that have been confirmed by the client. The About section currently uses the supplied photo of Mr Jon painting a mural.
 
 ### Project Assets
-All current images are placeholders. Replace with actual project photos and videos for an authentic portfolio.
+The public gallery uses processed copies of client-provided artwork. The original source assets are kept separately in `client-portfolio-assets` and are not required to build the website.
 
 ## 🚀 Deployment
 

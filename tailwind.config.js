@@ -15,6 +15,7 @@ export default {
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
         display: ['Space Grotesk', 'system-ui', 'sans-serif'],
+        stencil: ['Black Ops One', 'Impact', 'sans-serif'],
       },
       fontSize: {
         'display-xl': 'clamp(3.5rem, 10vw, 8rem)',

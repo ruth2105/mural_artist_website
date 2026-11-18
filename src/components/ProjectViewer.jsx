@@ -4,11 +4,18 @@ import { artworks } from '../data/artworks';
 
 export default function ProjectViewer({ project, onClose, onNavigate }) {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [videoErrors, setVideoErrors] = useState({});
 
   useEffect(() => {
     if (project) {
       const index = artworks.findIndex(a => a.id === project.id);
       setCurrentIndex(index);
+      setCurrentImageIndex(Math.max(
+        0,
+        project.images?.findIndex(image => image.src === project.featuredImage) ?? 0
+      ));
+      setVideoErrors({});
     }
   }, [project]);
 
@@ -53,6 +60,17 @@ export default function ProjectViewer({ project, onClose, onNavigate }) {
   };
 
   if (!project) return null;
+  const images = project.images?.length
+    ? project.images
+    : project.image
+      ? [{ src: project.image, alt: project.title }]
+      : [];
+  const currentImage = images[currentImageIndex];
+  const relatedProjects = artworks
+    .filter(artwork => artwork.category === project.category && artwork.id !== project.id)
+    .slice(0, 3);
+  const contributionType = project.contributionType
+    || (project.ownership === 'individual' ? 'Individual project' : null);
 
   return (
     <AnimatePresence>
@@ -62,6 +80,9 @@ export default function ProjectViewer({ project, onClose, onNavigate }) {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.3 }}
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="project-viewer-title"
           className="fixed inset-0 z-[200] bg-near-black/98 backdrop-blur-sm overflow-y-auto"
           onClick={onClose}
         >
@@ -86,22 +107,72 @@ export default function ProjectViewer({ project, onClose, onNavigate }) {
                 </svg>
               </button>
 
-              {/* Image */}
-              <div className="relative bg-charcoal mb-8 overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-auto max-h-[70vh] object-contain"
-                  style={{ objectPosition: project.objectPosition || 'center' }}
-                />
-              </div>
+              {currentImage && (
+                <div className="relative bg-charcoal mb-8 overflow-hidden">
+                  <img
+                    src={currentImage.src}
+                    alt={currentImage.alt || project.title}
+                    className="w-full h-auto max-h-[70vh] object-contain"
+                    style={{ objectPosition: project.objectPosition || 'center' }}
+                  />
+                </div>
+              )}
+
+              {images.length > 1 && (
+                <div className="flex gap-3 overflow-x-auto pb-2 mb-8" aria-label="Project images">
+                  {images.map((image, index) => (
+                    <button
+                      key={image.src}
+                      type="button"
+                      onClick={() => setCurrentImageIndex(index)}
+                      aria-label={`View image ${index + 1} of ${images.length}`}
+                      aria-pressed={currentImageIndex === index}
+                      className={`shrink-0 w-20 h-20 overflow-hidden border-2 ${
+                        currentImageIndex === index ? 'border-warm-white' : 'border-transparent'
+                      }`}
+                    >
+                      <img
+                        src={image.thumbnail || image.src}
+                        alt=""
+                        className="w-full h-full object-cover"
+                        loading="lazy"
+                      />
+                    </button>
+                  ))}
+                </div>
+              )}
+
+              {project.videos?.length > 0 && (
+                <div className="grid gap-4 mb-8">
+                  {project.videos.map((video) => (
+                    <div key={video.src}>
+                      <video
+                        controls
+                        playsInline
+                        preload="metadata"
+                        poster={video.poster}
+                        onError={() => setVideoErrors(errors => ({ ...errors, [video.src]: true }))}
+                        className="w-full max-h-[70vh] bg-charcoal"
+                      >
+                        <source src={video.src} type="video/mp4" />
+                        Your browser does not support this video format.
+                      </video>
+                      {videoErrors[video.src] && (
+                        <p role="status" className="mt-2 text-sm text-red-300">
+                          This project video could not be loaded.
+                        </p>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              )}
 
               {/* Project Info */}
               <div className="text-center md:text-left">
                 <p className="text-muted-gray text-xs uppercase tracking-wider mb-3">
-                  {project.category?.replace('-', ' ')}
+                  {project.categoryLabel || project.category?.replace('-', ' ')}
                 </p>
-                <h2 className="text-warm-white font-display font-bold text-3xl md:text-5xl mb-4">
+                <h2 id="project-viewer-title" className="text-warm-white font-display font-bold text-3xl md:text-5xl mb-4">
                   {project.title}
                 </h2>
                 {project.description && (
@@ -109,7 +180,51 @@ export default function ProjectViewer({ project, onClose, onNavigate }) {
                     {project.description}
                   </p>
                 )}
+                {(contributionType || project.dimensions || project.materials) && (
+                  <dl className="mt-6 grid gap-4 border-t border-white/10 pt-5 text-left sm:grid-cols-2">
+                    {contributionType && (
+                      <div>
+                        <dt className="text-[10px] uppercase tracking-[0.16em] text-muted-gray">Contribution</dt>
+                        <dd className="mt-1 text-sm text-warm-white/80">
+                          {contributionType === 'Collaborative project'
+                            ? 'Collaborative project; individual contributions are not specified.'
+                            : contributionType}
+                        </dd>
+                      </div>
+                    )}
+                    {project.dimensions && (
+                      <div>
+                        <dt className="text-[10px] uppercase tracking-[0.16em] text-muted-gray">Dimensions</dt>
+                        <dd className="mt-1 text-sm text-warm-white/80">{project.dimensions}</dd>
+                      </div>
+                    )}
+                    {project.materials && (
+                      <div>
+                        <dt className="text-[10px] uppercase tracking-[0.16em] text-muted-gray">Materials</dt>
+                        <dd className="mt-1 text-sm text-warm-white/80">{project.materials}</dd>
+                      </div>
+                    )}
+                  </dl>
+                )}
               </div>
+
+              {relatedProjects.length > 0 && (
+                <div className="mt-10 border-t border-white/10 pt-6">
+                  <p className="mb-4 text-[10px] uppercase tracking-[0.16em] text-muted-gray">Related projects</p>
+                  <div className="flex flex-wrap gap-x-6 gap-y-3">
+                    {relatedProjects.map(relatedProject => (
+                      <button
+                        key={relatedProject.id}
+                        type="button"
+                        onClick={() => onNavigate(relatedProject)}
+                        className="border-b border-white/20 pb-1 text-sm text-warm-white/80 hover:border-warm-white hover:text-warm-white"
+                      >
+                        {relatedProject.title}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* Navigation */}
               <div className="flex items-center justify-between mt-12">

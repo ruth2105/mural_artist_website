@@ -32,7 +32,7 @@ export default function MobileMenu({ isOpen, onClose, navLinks, scrollToSection 
           <div className="h-full flex flex-col">
             {/* Header */}
             <div className="flex items-center justify-between p-6">
-              <span className="text-warm-white font-display text-xl font-bold">MR. JON</span>
+              <span className="text-warm-white font-stencil text-lg tracking-wide">{artistInfo.name}</span>
               <button
                 onClick={onClose}
                 className="text-warm-white p-2"
@@ -101,6 +101,14 @@ export default function MobileMenu({ isOpen, onClose, navLinks, scrollToSection 
                   className="text-warm-white text-lg hover:opacity-70 transition-opacity"
                 >
                   Telegram
+                </a>
+                <a
+                  href={artistInfo.contact.youtube}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-warm-white text-lg hover:opacity-70 transition-opacity"
+                >
+                  YouTube
                 </a>
               </div>
             </motion.div>

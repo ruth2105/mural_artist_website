@@ -39,16 +39,8 @@ export default function ArtworkForm() {
 
   const fetchCategories = async () => {
     try {
-      // DEMO MODE: Use sample categories
-      const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-      const isDemo = !supabaseUrl || supabaseUrl.includes('your-project');
-      
-      if (isDemo) {
-        setCategories([
-          { id: 'murals', label: 'Murals', display_order: 1 },
-          { id: 'branding', label: 'Branding', display_order: 2 },
-          { id: 'concept-design', label: 'Concept Design', display_order: 3 },
-        ]);
+      if (!supabase) {
+        setCategories([]);
         return;
       }
 
@@ -57,10 +49,11 @@ export default function ArtworkForm() {
         .select('*')
         .eq('is_active', true)
         .order('display_order');
-      
+
       setCategories(data || []);
     } catch (error) {
       console.error('Error fetching categories:', error);
+      setCategories([]);
     }
   };
 
@@ -112,16 +105,8 @@ export default function ArtworkForm() {
     setSaving(true);
 
     try {
-      // DEMO MODE: Just show success message
-      const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-      const isDemo = !supabaseUrl || supabaseUrl.includes('your-project');
-      
-      if (isDemo) {
-        alert('✅ DEMO MODE: In production, this would save to database.\n\nYour artwork would be:\n' +
-              `- Title: ${formData.title}\n` +
-              `- Category: ${categories.find(c => c.id === formData.category_id)?.label}\n` +
-              `- Status: ${formData.status}\n\n` +
-              'After Supabase setup, this will work for real!');
+      if (!supabase) {
+        alert('Supabase is not configured. Set the required environment variables before creating or editing artwork.');
         setSaving(false);
         return;
       }
@@ -129,17 +114,10 @@ export default function ArtworkForm() {
       let imageUrl = mainImage;
       let imagePath = null;
 
-      // Upload new image if selected
       if (mainImageFile) {
         const { url, path } = await uploadImage(mainImageFile, 'artworks');
         imageUrl = url;
         imagePath = path;
-
-        // Delete old image if editing
-        if (isEdit && mainImage) {
-          // Extract path from URL if needed
-          // await deleteImage(oldPath);
-        }
       }
 
       if (!imageUrl) {
@@ -149,7 +127,7 @@ export default function ArtworkForm() {
       }
 
       const slug = generateSlug(formData.title);
-      
+
       const artworkData = {
         ...formData,
         slug,

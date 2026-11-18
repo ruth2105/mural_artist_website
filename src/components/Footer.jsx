@@ -16,8 +16,8 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <h3 className="text-warm-white font-display text-2xl font-bold mb-3">
-              MR. JON
+            <h3 className="text-warm-white font-stencil text-xl md:text-2xl mb-3 tracking-wide">
+              {artistInfo.name}
             </h3>
             <p className="text-muted-gray text-sm mb-4">
               Art without Boundaries.
@@ -39,6 +39,14 @@ export default function Footer() {
                   className="text-warm-white/70 hover:text-warm-white transition-colors text-sm"
                 >
                   Work
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => scrollToSection('behind-the-art')}
+                  className="text-warm-white/70 hover:text-warm-white transition-colors text-sm"
+                >
+                  Films
                 </button>
               </li>
               <li>
@@ -104,6 +112,16 @@ export default function Footer() {
                   Telegram
                 </a>
               </li>
+              <li>
+                <a
+                  href={artistInfo.contact.youtube}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-warm-white/70 hover:text-warm-white transition-colors text-sm"
+                >
+                  YouTube
+                </a>
+              </li>
             </ul>
             <div className="text-warm-white/70 text-sm">
               <p className="mb-1">{artistInfo.contact.phone}</p>
@@ -115,7 +133,7 @@ export default function Footer() {
         <div className="pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-warm-white/50 text-sm">
-              © {currentYear} Mr. Jon. All rights reserved.
+              © {currentYear} {artistInfo.name}. All rights reserved.
             </p>
             <p className="text-warm-white/50 text-sm">
               Developed by <a href="https://github.com/ruth2105" target="_blank" rel="noopener noreferrer" className="text-warm-white/70 hover:text-warm-white transition-colors">Ruth Mesfin</a>

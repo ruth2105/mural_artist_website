@@ -8,6 +8,12 @@ export default function SocialSection() {
 
   const socialLinks = [
     {
+      name: 'YouTube',
+      handle: artistInfo.contact.youtubeHandle,
+      url: artistInfo.contact.youtube,
+      description: 'YouTube channel'
+    },
+    {
       name: 'TikTok',
       handle: artistInfo.contact.tiktokHandle,
       url: artistInfo.contact.tiktok,
@@ -44,7 +50,7 @@ export default function SocialSection() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 md:gap-8">
           {socialLinks.map((social, index) => (
             <motion.a
               key={social.name}

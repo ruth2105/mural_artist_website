@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect } from 'react';
+import { artistInfo } from '../data/artist';
 
 export default function PageLoader() {
   const [isLoading, setIsLoading] = useState(true);
@@ -29,8 +30,8 @@ export default function PageLoader() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h1 className="text-warm-white font-display text-4xl md:text-6xl font-bold mb-4">
-                MR. JON
+              <h1 className="text-warm-white font-stencil text-3xl md:text-5xl mb-4">
+                {artistInfo.name}
               </h1>
               <p className="text-warm-white/60 text-sm tracking-widest uppercase">
                 Loading Portfolio

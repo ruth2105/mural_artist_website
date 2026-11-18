@@ -46,17 +46,6 @@ export default function ContactSection() {
               </a>
             </motion.div>
 
-            {/* Email - Note: incomplete in brief */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ delay: 0.3, duration: 0.6 }}
-            >
-              <p className="text-muted-gray text-sm uppercase tracking-wider mb-2">Email</p>
-              <p className="text-warm-white/50 text-sm italic">
-                Email address to be confirmed
-              </p>
-            </motion.div>
           </div>
 
           {/* Social Links */}
@@ -91,6 +80,15 @@ export default function ContactSection() {
               className="text-warm-white text-base font-medium hover:opacity-70 transition-opacity"
             >
               Telegram
+            </a>
+            <span className="text-white/20">•</span>
+            <a
+              href={artistInfo.contact.youtube}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-warm-white text-base font-medium hover:opacity-70 transition-opacity"
+            >
+              YouTube
             </a>
           </motion.div>
 

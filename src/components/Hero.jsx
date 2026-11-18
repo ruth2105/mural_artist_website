@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { useReducedMotion } from '../hooks/useReducedMotion';
+import { artistInfo } from '../data/artist';
 
 export default function Hero({ onExploreClick, onContactClick }) {
   const prefersReducedMotion = useReducedMotion();
@@ -22,9 +23,9 @@ export default function Hero({ onExploreClick, onContactClick }) {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-near-black/60 via-near-black/40 to-near-black/90 z-10" />
         <img
-          src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=1920&q=85"
-          alt="Featured mural artwork"
-          className="w-full h-full object-cover"
+          src="/portfolio-media/Mr%20Jon/Mrr%20Jon/main%20page/For%20Front%20Page.webp"
+          alt="Artist working on a wall mural"
+          className="w-full h-full object-cover object-[center_45%]"
         />
         {/* Subtle Grain Texture */}
         <div className="absolute inset-0 opacity-[0.015] mix-blend-overlay pointer-events-none z-20"
@@ -50,14 +51,14 @@ export default function Hero({ onExploreClick, onContactClick }) {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="font-display font-bold text-warm-white mb-6"
+          className="font-stencil text-warm-white mb-6"
           style={{
-            fontSize: 'clamp(4rem, 12vw, 10rem)',
-            lineHeight: '0.9',
-            letterSpacing: '-0.02em'
+            fontSize: 'clamp(3rem, 10.5vw, 8rem)',
+            lineHeight: '0.95',
+            letterSpacing: '0.015em'
           }}
         >
-          MR. JON
+          {artistInfo.name}
         </motion.h1>
 
         <motion.p

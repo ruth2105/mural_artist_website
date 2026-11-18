@@ -16,52 +16,8 @@ export default function ArtworksList() {
 
   const fetchArtworks = async () => {
     try {
-      // DEMO MODE: Use sample data from gallery
-      const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-      const isDemo = !supabaseUrl || supabaseUrl.includes('your-project');
-      
-      if (isDemo) {
-        const sampleData = [
-          {
-            id: '1',
-            title: 'Unity Through Colors',
-            slug: 'unity-through-colors',
-            main_image_url: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800',
-            description: 'A vibrant mural celebrating cultural diversity',
-            status: 'published',
-            is_featured: true,
-            created_at: '2024-01-15T00:00:00Z',
-            categories: { label: 'Murals', name: 'murals' }
-          },
-          {
-            id: '2',
-            title: 'Ethiopian Coffee Brand',
-            slug: 'ethiopian-coffee-brand',
-            main_image_url: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800',
-            description: 'Complete branding package for local coffee company',
-            status: 'published',
-            is_featured: false,
-            created_at: '2024-02-10T00:00:00Z',
-            categories: { label: 'Branding', name: 'branding' }
-          },
-          {
-            id: '3',
-            title: 'Future City Concept',
-            slug: 'future-city-concept',
-            main_image_url: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800',
-            description: 'Conceptual design for sustainable urban development',
-            status: 'draft',
-            is_featured: false,
-            created_at: '2024-03-05T00:00:00Z',
-            categories: { label: 'Concept Design', name: 'concept-design' }
-          },
-        ];
-
-        const filtered = filter === 'all' 
-          ? sampleData 
-          : sampleData.filter(a => a.status === filter);
-        
-        setArtworks(filtered);
+      if (!supabase) {
+        setArtworks([]);
         setLoading(false);
         return;
       }
@@ -81,6 +37,7 @@ export default function ArtworksList() {
       setArtworks(data || []);
     } catch (error) {
       console.error('Error fetching artworks:', error);
+      setArtworks([]);
     } finally {
       setLoading(false);
     }
@@ -90,17 +47,11 @@ export default function ArtworksList() {
     if (!confirm('Are you sure you want to delete this artwork?')) return;
 
     try {
-      // DEMO MODE: Just remove from local state
-      const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-      const isDemo = !supabaseUrl || supabaseUrl.includes('your-project');
-      
-      if (isDemo) {
-        alert('✅ DEMO MODE: In production, this would delete from database.');
-        setArtworks(artworks.filter(a => a.id !== id));
+      if (!supabase) {
+        alert('Supabase is not configured. No artwork can be deleted until the project is connected to a real database.');
         return;
       }
 
-      // Delete from database
       const { error } = await supabase
         .from('artworks')
         .delete()
@@ -108,7 +59,6 @@ export default function ArtworksList() {
 
       if (error) throw error;
 
-      // Note: Image deletion from storage handled separately if needed
       setArtworks(artworks.filter(a => a.id !== id));
     } catch (error) {
       console.error('Error deleting artwork:', error);
@@ -118,16 +68,10 @@ export default function ArtworksList() {
 
   const toggleStatus = async (id, currentStatus) => {
     const newStatus = currentStatus === 'published' ? 'draft' : 'published';
-    
+
     try {
-      // DEMO MODE: Just update local state
-      const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-      const isDemo = !supabaseUrl || supabaseUrl.includes('your-project');
-      
-      if (isDemo) {
-        setArtworks(artworks.map(a => 
-          a.id === id ? { ...a, status: newStatus } : a
-        ));
+      if (!supabase) {
+        alert('Supabase is not configured. Status changes are unavailable until the application is connected to a real database.');
         return;
       }
 

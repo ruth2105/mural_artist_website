@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
+import { getSupabaseConfigError } from '../../lib/supabase';
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -9,6 +10,7 @@ export default function Login() {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
   const { signIn } = useAuth();
+  const configError = getSupabaseConfigError();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -46,6 +48,12 @@ export default function Login() {
             </div>
           )}
 
+          {configError && (
+            <div className="mb-6 p-4 bg-amber-500/10 border border-amber-500/40 rounded text-amber-200 text-sm">
+              {configError}
+            </div>
+          )}
+
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label htmlFor="email" className="block text-warm-white text-sm font-medium mb-2">
@@ -79,7 +87,7 @@ export default function Login() {
 
             <button
               type="submit"
-              disabled={loading}
+              disabled={loading || Boolean(configError)}
               className="w-full px-6 py-3 bg-warm-white text-near-black font-medium rounded hover:scale-105 transition-transform duration-300 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
             >
               {loading ? 'Signing in...' : 'Sign In'}

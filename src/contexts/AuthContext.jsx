@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from 'react';
-import { supabase } from '../lib/supabase';
+import { getSupabaseConfigError, isSupabaseConfigured, supabase } from '../lib/supabase';
 
 const AuthContext = createContext({});
 
@@ -16,29 +16,17 @@ export function AuthProvider({ children }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // DEMO MODE: Bypass auth when Supabase is not configured
-    const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-    const isDemo = !supabaseUrl || supabaseUrl.includes('your-project');
-    
-    if (isDemo) {
-      // Auto-login as demo user
-      const demoUser = {
-        id: 'demo-user-123',
-        email: 'demo@mrjon.com',
-        user_metadata: { full_name: 'Demo User' }
-      };
-      setUser(demoUser);
+    if (!isSupabaseConfigured()) {
+      setUser(null);
       setLoading(false);
       return;
     }
 
-    // Check active sessions and sets the user
     supabase.auth.getSession().then(({ data: { session } }) => {
       setUser(session?.user ?? null);
       setLoading(false);
     });
 
-    // Listen for changes on auth state
     const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
       setUser(session?.user ?? null);
       setLoading(false);
@@ -48,34 +36,21 @@ export function AuthProvider({ children }) {
   }, []);
 
   const signIn = async (email, password) => {
-    // DEMO MODE: Accept any credentials
-    const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-    const isDemo = !supabaseUrl || supabaseUrl.includes('your-project');
-    
-    if (isDemo) {
-      const demoUser = {
-        id: 'demo-user-123',
-        email: email || 'demo@mrjon.com',
-        user_metadata: { full_name: 'Demo User' }
-      };
-      setUser(demoUser);
-      return { user: demoUser };
+    if (!isSupabaseConfigured()) {
+      throw new Error(getSupabaseConfigError() || 'Supabase is not configured.');
     }
 
     const { data, error } = await supabase.auth.signInWithPassword({
       email,
       password,
     });
+
     if (error) throw error;
     return data;
   };
 
   const signOut = async () => {
-    // DEMO MODE: Just clear user
-    const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-    const isDemo = !supabaseUrl || supabaseUrl.includes('your-project');
-    
-    if (isDemo) {
+    if (!isSupabaseConfigured()) {
       setUser(null);
       return;
     }
