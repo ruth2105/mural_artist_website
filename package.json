@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "setup-storage": "node scripts/setup-storage-bucket.js",
+    "upload-media": "node scripts/upload-media-to-supabase.js",
+    "update-urls": "node scripts/update-artwork-urls.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.3",
@@ -22,6 +25,7 @@
     "@types/react-dom": "^18.2.0",
     "@vitejs/plugin-react": "^4.2.0",
     "autoprefixer": "^10.4.16",
+    "dotenv": "^18.0.10",
     "postcss": "^8.4.32",
     "tailwindcss": "^3.4.0",
     "vite": "^5.0.0"
