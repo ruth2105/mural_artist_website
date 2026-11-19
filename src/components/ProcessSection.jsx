@@ -7,7 +7,7 @@ export default function ProcessSection() {
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
   return (
-    <section ref={ref} className="relative py-24 md:py-32 bg-charcoal overflow-hidden">
+    <section ref={ref} className="relative py-24 md:py-32 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -15,10 +15,10 @@ export default function ProcessSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="font-display font-bold text-warm-white text-4xl md:text-5xl mb-4 tracking-tight">
+          <h2 className="font-display font-bold text-slate-text text-4xl md:text-5xl mb-4 tracking-tight">
             CREATIVE PROCESS
           </h2>
-          <p className="text-muted-gray text-lg">
+          <p className="text-slate-light text-lg">
             From initial concept to final artwork
           </p>
         </motion.div>
@@ -35,21 +35,21 @@ export default function ProcessSection() {
             >
               {/* Connector Line (Desktop) */}
               {index < process.length - 1 && (
-                <div className="hidden md:block absolute top-12 left-1/2 w-full h-[2px] bg-white/10" />
+                <div className="hidden md:block absolute top-12 left-1/2 w-full h-[2px] bg-primary-blue/20" />
               )}
               
               {/* Number Circle */}
-              <div className="relative inline-flex items-center justify-center w-24 h-24 rounded-full border-2 border-warm-white bg-charcoal mb-6">
-                <span className="text-warm-white font-display text-2xl font-bold">
+              <div className="relative inline-flex items-center justify-center w-24 h-24 rounded-full border-2 border-primary-blue bg-white shadow-lg shadow-primary-blue/10 mb-6">
+                <span className="text-primary-blue font-display text-2xl font-bold">
                   {step.number}
                 </span>
               </div>
 
               {/* Content */}
-              <h3 className="text-warm-white font-display font-bold text-xl mb-2">
+              <h3 className="text-slate-text font-display font-bold text-xl mb-2">
                 {step.title}
               </h3>
-              <p className="text-muted-gray text-sm">
+              <p className="text-slate-light text-sm">
                 {step.description}
               </p>
             </motion.div>

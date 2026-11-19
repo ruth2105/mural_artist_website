@@ -13,11 +13,11 @@ export default function SectionHeading({ title, subtitle, centered = false }) {
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
       className={`mb-12 md:mb-16 ${centered ? 'text-center' : ''}`}
     >
-      <h2 className="font-display font-bold text-warm-white text-4xl md:text-6xl tracking-tight mb-4">
+      <h2 className="font-display font-bold text-slate-text text-4xl md:text-6xl tracking-tight mb-4">
         {title}
       </h2>
       {subtitle && (
-        <p className="text-muted-gray text-base md:text-lg">{subtitle}</p>
+        <p className="text-slate-light text-base md:text-lg">{subtitle}</p>
       )}
     </motion.div>
   );
