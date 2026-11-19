@@ -56,12 +56,12 @@ export default function ContactSection() {
             className="flex flex-wrap justify-center gap-6"
           >
             <a
-              href={artistInfo.contact.instagram}
+              href={artistInfo.contact.telegram}
               target="_blank"
               rel="noopener noreferrer"
               className="text-warm-white text-base font-medium hover:opacity-70 transition-opacity"
             >
-              Instagram
+              Telegram
             </a>
             <span className="text-white/20">•</span>
             <a
@@ -74,12 +74,12 @@ export default function ContactSection() {
             </a>
             <span className="text-white/20">•</span>
             <a
-              href={artistInfo.contact.telegram}
+              href={artistInfo.contact.instagram}
               target="_blank"
               rel="noopener noreferrer"
               className="text-warm-white text-base font-medium hover:opacity-70 transition-opacity"
             >
-              Telegram
+              Instagram
             </a>
             <span className="text-white/20">•</span>
             <a

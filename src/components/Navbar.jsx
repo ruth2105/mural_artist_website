@@ -24,9 +24,9 @@ export default function Navbar() {
   };
 
   const navLinks = [
-    { label: 'WORK', id: 'work' },
-    { label: 'FILMS', id: 'behind-the-art' },
-    { label: 'ABOUT', id: 'about' },
+    { label: 'PROJECT', id: 'work' },
+    { label: 'VIDEOS', id: 'behind-the-art' },
+    { label: 'ABOUT Jo Creates', id: 'about' },
     { label: 'SERVICES', id: 'services' },
     { label: 'CONTACT', id: 'contact' }
   ];

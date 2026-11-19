@@ -8,10 +8,10 @@ export default function SocialSection() {
 
   const socialLinks = [
     {
-      name: 'YouTube',
-      handle: artistInfo.contact.youtubeHandle,
-      url: artistInfo.contact.youtube,
-      description: 'YouTube channel'
+      name: 'Telegram',
+      handle: '@MrJo240',
+      url: artistInfo.contact.telegram,
+      description: 'Direct communication'
     },
     {
       name: 'TikTok',
@@ -26,10 +26,10 @@ export default function SocialSection() {
       description: 'Latest work and project updates'
     },
     {
-      name: 'Telegram',
-      handle: '@MrJo240',
-      url: artistInfo.contact.telegram,
-      description: 'Direct communication'
+      name: 'YouTube',
+      handle: artistInfo.contact.youtubeHandle,
+      url: artistInfo.contact.youtube,
+      description: 'YouTube channel'
     }
   ];
 

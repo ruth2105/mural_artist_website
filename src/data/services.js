@@ -1,24 +1,24 @@
 export const services = [
   {
     id: "01",
-    title: "Commercial Murals & Spatial Art",
-    description: "Large-scale murals and visual artwork for physical spaces, including local cafés, offices, and public or community spaces.",
+    title: "Commercial Murals & Wall Art",
+    description: "Large-scale murals and visual artwork for physical spaces, including local cafés, offices, and public spaces.",
     features: [
       "Interior & exterior murals",
-      "Community spaces",
-      "Commercial installations",
+      "Large Scale Paint",
+      "Art on the windows",
       "Custom wall art"
     ]
   },
   {
     id: "02",
     title: "Brand Identity & Graphic Design",
-    description: "Logo design, custom labels and packaging, banners, and print design.",
+    description: "Logo design, custom labels and packaging, and print design.",
     features: [
       "Logo design",
       "Brand identity systems",
       "Packaging & labels",
-      "Print & banner design"
+      "Print design"
     ]
   },
   {

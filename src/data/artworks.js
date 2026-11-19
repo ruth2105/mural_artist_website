@@ -848,66 +848,6 @@ const baseArtworks = [
     "sourceFolder": "Mr Jon/Mrr Jon/Small Projects/5 My Design"
   },
   {
-    "id": "small-projects-6-barkon-gym",
-    "title": "6 Barkon Gym",
-    "category": "small-projects",
-    "categoryLabel": "Small Mural Art Gallery",
-    "ownership": null,
-    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/6%20Barkon%20Gym/2026_06_12_15_03_48_IMG_2436.jpg",
-    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/6%20Barkon%20Gym/2026_06_12_15_03_48_IMG_2436.jpg",
-    "images": [],
-    "videos": [
-      {
-        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/6%20Barkon%20Gym/2026_06_12_15_03_48_IMG_2436.mp4",
-        "poster": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/6%20Barkon%20Gym/2026_06_12_15_03_48_IMG_2436.jpg"
-      },
-      {
-        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/6%20Barkon%20Gym/2026_06_17_15_55_06_IMG_2608.mp4",
-        "poster": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/6%20Barkon%20Gym/2026_06_17_15_55_06_IMG_2608.jpg"
-      }
-    ],
-    "description": "",
-    "featured": false,
-    "objectPosition": "center",
-    "sourceFolder": "Mr Jon/Mrr Jon/Small Projects/6 Barkon Gym"
-  },
-  {
-    "id": "small-projects-7-homegym-ermi",
-    "title": "7 HomeGym Ermi",
-    "category": "small-projects",
-    "categoryLabel": "Small Mural Art Gallery",
-    "ownership": null,
-    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_33_45_IMG_0956.webp",
-    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_33_45_IMG_0956.webp",
-    "images": [
-      {
-        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_33_45_IMG_0956.webp",
-        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_33_45_IMG_0956.webp",
-        "alt": "7 HomeGym Ermi - 2025_12_11_11_33_45_IMG_0956"
-      },
-      {
-        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_33_57_IMG_0958.webp",
-        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_33_57_IMG_0958.webp",
-        "alt": "7 HomeGym Ermi - 2025_12_11_11_33_57_IMG_0958"
-      },
-      {
-        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/Screenshot%202026-10-21%20091858.webp",
-        "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/Screenshot%202026-10-21%20091858.webp",
-        "alt": "7 HomeGym Ermi - Screenshot 2026-10-21 091858"
-      }
-    ],
-    "videos": [
-      {
-        "src": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_20_49_IMG_3117.mp4",
-        "poster": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Small%20Projects/7%20HomeGym%20Ermi/2025_12_11_11_20_49_IMG_3117.jpg"
-      }
-    ],
-    "description": "",
-    "featured": false,
-    "objectPosition": "center",
-    "sourceFolder": "Mr Jon/Mrr Jon/Small Projects/7 HomeGym Ermi"
-  },
-  {
     "id": "small-projects-8-kb",
     "title": "8 Kb",
     "category": "small-projects",
@@ -1163,6 +1103,21 @@ const baseArtworks = [
     "featured": false,
     "objectPosition": "center",
     "sourceFolder": "Mr Jon/Mrr Jon/Advert and Printing"
+  },
+  {
+    "id": "advertising-printing-branding-folder",
+    "title": "Branding, Advertising and Printing",
+    "category": "advertising-printing",
+    "categoryLabel": "Advertising and Printing",
+    "ownership": null,
+    "image": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_06_12_18_38_15_IMG_0017.webp",
+    "thumbnail": "https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/_thumbnails/Mr%20Jon/Mrr%20Jon/Advert%20and%20Printing/2023_06_12_18_38_15_IMG_0017.webp",
+    "images": [],
+    "videos": [],
+    "description": "Complete branding packages, advertising materials, and professional printing designs for businesses.",
+    "featured": false,
+    "objectPosition": "center",
+    "sourceFolder": "Mr Jon/Mrr Jon/Branding Folder"
   }
 ];
 
