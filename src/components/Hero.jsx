@@ -1,9 +1,10 @@
 import { motion } from 'framer-motion';
 import { useReducedMotion } from '../hooks/useReducedMotion';
-import { artistInfo } from '../data/artist';
+import { useArtistProfile } from '../hooks/useArtistProfile';
 
 export default function Hero({ onExploreClick, onContactClick }) {
   const prefersReducedMotion = useReducedMotion();
+  const { profile, loading } = useArtistProfile();
 
   const scrollToWork = () => {
     const element = document.getElementById('work');
@@ -58,7 +59,7 @@ export default function Hero({ onExploreClick, onContactClick }) {
             letterSpacing: '0.015em'
           }}
         >
-          {artistInfo.name}
+          {profile.name}
         </motion.h1>
 
         <motion.p
@@ -67,7 +68,7 @@ export default function Hero({ onExploreClick, onContactClick }) {
           transition={{ delay: 0.8, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           className="text-primary-blue text-xl md:text-3xl font-display font-medium mb-8 tracking-tight"
         >
-          Art without Boundaries.
+          {profile.tagline}
         </motion.p>
 
         <motion.p

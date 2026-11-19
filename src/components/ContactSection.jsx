@@ -1,10 +1,11 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { artistInfo } from '../data/artist';
+import { useArtistProfile } from '../hooks/useArtistProfile';
 
 export default function ContactSection() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.3 });
+  const { profile, loading } = useArtistProfile();
 
   return (
     <section id="contact" ref={ref} className="relative py-24 md:py-32 bg-gradient-to-br from-light-blue/50 via-white to-sky-blue/30">
@@ -39,10 +40,10 @@ export default function ContactSection() {
             >
               <p className="text-slate-light text-sm uppercase tracking-wider mb-2">Email</p>
               <a
-                href={artistInfo.contact.emailLink}
+                href={profile.contact.emailLink}
                 className="text-primary-blue font-display text-xl md:text-2xl font-medium hover:opacity-70 transition-opacity"
               >
-                {artistInfo.contact.email}
+                {profile.contact.email}
               </a>
             </motion.div>
 
@@ -54,10 +55,10 @@ export default function ContactSection() {
             >
               <p className="text-slate-light text-sm uppercase tracking-wider mb-2">Phone</p>
               <a
-                href={artistInfo.contact.phoneLink}
+                href={profile.contact.phoneLink}
                 className="text-primary-blue font-display text-2xl md:text-3xl font-medium hover:opacity-70 transition-opacity"
               >
-                {artistInfo.contact.phone}
+                {profile.contact.phone}
               </a>
             </motion.div>
 
@@ -71,7 +72,7 @@ export default function ContactSection() {
             className="flex flex-wrap justify-center gap-6"
           >
             <a
-              href={artistInfo.contact.telegram}
+              href={profile.contact.telegram}
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-text text-base font-medium hover:text-primary-blue transition-colors"
@@ -80,7 +81,7 @@ export default function ContactSection() {
             </a>
             <span className="text-slate-light/40">•</span>
             <a
-              href={artistInfo.contact.tiktok}
+              href={profile.contact.tiktok}
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-text text-base font-medium hover:text-primary-blue transition-colors"
@@ -89,7 +90,7 @@ export default function ContactSection() {
             </a>
             <span className="text-slate-light/40">•</span>
             <a
-              href={artistInfo.contact.instagram}
+              href={profile.contact.instagram}
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-text text-base font-medium hover:text-primary-blue transition-colors"
@@ -98,7 +99,7 @@ export default function ContactSection() {
             </a>
             <span className="text-slate-light/40">•</span>
             <a
-              href={artistInfo.contact.youtube}
+              href={profile.contact.youtube}
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-text text-base font-medium hover:text-primary-blue transition-colors"

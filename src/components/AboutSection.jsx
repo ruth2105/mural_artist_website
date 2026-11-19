@@ -1,10 +1,11 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { artistInfo } from '../data/artist';
+import { useArtistProfile } from '../hooks/useArtistProfile';
 
 export default function AboutSection() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.3 });
+  const { profile, loading } = useArtistProfile();
 
   return (
     <section id="about" ref={ref} className="relative overflow-x-clip py-24 md:py-32 bg-gradient-to-br from-light-blue/30 via-white to-sky-blue/20">
@@ -18,7 +19,7 @@ export default function AboutSection() {
           >
             <div className="aspect-[3/4] bg-light-blue/50 shadow-xl shadow-primary-blue/10">
               <img
-                src={artistInfo.profileImage}
+                src={profile.profileImage}
                 alt="Mr Jon painting a mural"
                 loading="lazy"
                 decoding="async"
@@ -40,7 +41,7 @@ export default function AboutSection() {
               ART WITHOUT BOUNDARIES.
             </h2>
             <div className="space-y-4 text-slate-text/80 text-base md:text-lg leading-relaxed">
-              {artistInfo.biography.split('\n\n').map((paragraph, index) => (
+              {profile.biography.split('\n\n').map((paragraph, index) => (
                 <p key={index}>{paragraph}</p>
               ))}
             </div>
@@ -49,7 +50,7 @@ export default function AboutSection() {
             <div className="mt-8 pt-8 border-t border-primary-blue/20">
               <p className="text-slate-light text-sm uppercase tracking-wider mb-4">Specializations</p>
               <div className="flex flex-wrap gap-2">
-                {artistInfo.skills.map((skill, index) => (
+                {profile.skills.map((skill, index) => (
                   <span
                     key={index}
                     className="px-4 py-2 bg-light-blue/50 text-primary-blue text-sm border border-primary-blue/30 rounded-lg hover:bg-primary-blue hover:text-white transition-all duration-300"

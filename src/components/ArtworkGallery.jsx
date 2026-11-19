@@ -1,6 +1,7 @@
-import { useRef, useState } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { AnimatePresence, motion, useInView } from 'framer-motion';
-import { artworks, categories } from '../data/artworks';
+import { categories as staticCategories } from '../data/artworks';
+import { useArtworks } from '../hooks/useArtworks';
 import ArtworkCard from './ArtworkCard';
 import SectionHeading from './SectionHeading';
 import UnifiedSmallGallery from './UnifiedSmallGallery';
@@ -28,6 +29,11 @@ export default function ArtworkGallery({ onProjectClick }) {
   const [activeCategory, setActiveCategory] = useState('all');
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.1 });
+  
+  // Use database hook with fallback to static data
+  const { artworks, loading } = useArtworks(activeCategory);
+  const categories = staticCategories; // Categories structure is stable
+  
   const visibleSections = gallerySections.filter((section) => (
     activeCategory === 'all' || section.id === activeCategory
   ));
@@ -93,7 +99,7 @@ export default function ArtworkGallery({ onProjectClick }) {
 
                   {sectionArtworks.length ? (
                     section.id === 'small-projects' ? (
-                      <UnifiedSmallGallery onImageClick={onProjectClick} />
+                      <UnifiedSmallGallery onImageClick={onProjectClick} artworks={artworks} />
                     ) : (
                       <div className={section.className}>
                         {sectionArtworks.map((artwork, index) => (
@@ -107,6 +113,10 @@ export default function ArtworkGallery({ onProjectClick }) {
                         ))}
                       </div>
                     )
+                  ) : loading ? (
+                    <p className="border border-primary-blue/20 bg-light-blue/30 px-5 py-8 text-center text-slate-light rounded-lg">
+                      Loading artwork...
+                    </p>
                   ) : (
                     <p className="border border-primary-blue/20 bg-light-blue/30 px-5 py-8 text-center text-slate-light rounded-lg">
                       No artwork has been added to this category yet.

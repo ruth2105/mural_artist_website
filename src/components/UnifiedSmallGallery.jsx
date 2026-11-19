@@ -1,12 +1,11 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { artworks } from '../data/artworks';
 
 /**
  * UnifiedSmallGallery - Displays all images from small-projects category
  * as a unified masonry grid (not individual project cards)
  */
-export default function UnifiedSmallGallery({ onImageClick }) {
+export default function UnifiedSmallGallery({ onImageClick, artworks = [] }) {
   const [imageErrors, setImageErrors] = useState({});
 
   // Extract ALL images from all small-projects into a flat array
