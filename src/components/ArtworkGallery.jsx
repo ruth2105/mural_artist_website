@@ -3,6 +3,7 @@ import { AnimatePresence, motion, useInView } from 'framer-motion';
 import { artworks, categories } from '../data/artworks';
 import ArtworkCard from './ArtworkCard';
 import SectionHeading from './SectionHeading';
+import UnifiedSmallGallery from './UnifiedSmallGallery';
 
 const gallerySections = [
   {
@@ -91,17 +92,21 @@ export default function ArtworkGallery({ onProjectClick }) {
                   </div>
 
                   {sectionArtworks.length ? (
-                    <div className={section.className}>
-                      {sectionArtworks.map((artwork, index) => (
-                        <ArtworkCard
-                          key={artwork.id}
-                          artwork={artwork}
-                          onClick={onProjectClick}
-                          index={index + sectionIndex}
-                          variant={section.id === 'small-projects' ? 'masonry' : 'editorial'}
-                        />
-                      ))}
-                    </div>
+                    section.id === 'small-projects' ? (
+                      <UnifiedSmallGallery onImageClick={onProjectClick} />
+                    ) : (
+                      <div className={section.className}>
+                        {sectionArtworks.map((artwork, index) => (
+                          <ArtworkCard
+                            key={artwork.id}
+                            artwork={artwork}
+                            onClick={onProjectClick}
+                            index={index + sectionIndex}
+                            variant="editorial"
+                          />
+                        ))}
+                      </div>
+                    )
                   ) : (
                     <p className="border border-primary-blue/20 bg-light-blue/30 px-5 py-8 text-center text-slate-light rounded-lg">
                       No artwork has been added to this category yet.
