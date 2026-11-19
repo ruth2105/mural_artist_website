@@ -7,6 +7,8 @@ export const artistInfo = {
 Art is best shared—I frequently collaborate with creators across industries to fuse traditional artistry with modern digital techniques, crafting visual narratives that resonate deeply and stand out.`,
   
   contact: {
+    email: "Yohannessheferaw24@gmail.com",
+    emailLink: "mailto:Yohannessheferaw24@gmail.com",
     phone: "+251 98 999 0996",
     phoneRaw: "0989990996",
     phoneLink: "tel:+251989990996",

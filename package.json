@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "setup-storage": "node scripts/setup-storage-bucket.js",
     "upload-media": "node scripts/upload-media-to-supabase.js",
-    "update-urls": "node scripts/update-artwork-urls.js"
+    "update-urls": "node scripts/update-artwork-urls.js",
+    "setup-backend": "node scripts/setup-complete-backend.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.3",

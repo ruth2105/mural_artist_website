@@ -31,11 +31,26 @@ export default function ContactSection() {
           </p>
 
           <div className="space-y-6 mb-12">
-            {/* Phone */}
+            {/* Email */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.2, duration: 0.6 }}
+            >
+              <p className="text-muted-gray text-sm uppercase tracking-wider mb-2">Email</p>
+              <a
+                href={artistInfo.contact.emailLink}
+                className="text-warm-white font-display text-xl md:text-2xl font-medium hover:opacity-70 transition-opacity"
+              >
+                {artistInfo.contact.email}
+              </a>
+            </motion.div>
+
+            {/* Phone */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              transition={{ delay: 0.3, duration: 0.6 }}
             >
               <p className="text-muted-gray text-sm uppercase tracking-wider mb-2">Phone</p>
               <a
