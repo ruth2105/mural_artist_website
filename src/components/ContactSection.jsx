@@ -7,7 +7,7 @@ export default function ContactSection() {
   const isInView = useInView(ref, { once: true, amount: 0.3 });
 
   return (
-    <section id="contact" ref={ref} className="relative py-24 md:py-32 bg-near-black">
+    <section id="contact" ref={ref} className="relative py-24 md:py-32 bg-gradient-to-br from-light-blue/50 via-white to-sky-blue/30">
       <div className="max-w-5xl mx-auto px-6 md:px-12">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -15,7 +15,7 @@ export default function ContactSection() {
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           className="text-center"
         >
-          <h2 className="font-display font-bold text-warm-white mb-6 tracking-tight"
+          <h2 className="font-display font-bold text-slate-text mb-6 tracking-tight"
             style={{
               fontSize: 'clamp(3rem, 8vw, 6rem)',
               lineHeight: '1.1'
@@ -26,7 +26,7 @@ export default function ContactSection() {
             SOMETHING DISTINCTIVE.
           </h2>
           
-          <p className="text-warm-white/70 text-lg md:text-xl mb-12 max-w-2xl mx-auto">
+          <p className="text-slate-text/70 text-lg md:text-xl mb-12 max-w-2xl mx-auto">
             Have a project in mind? Let's talk.
           </p>
 
@@ -37,10 +37,10 @@ export default function ContactSection() {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.2, duration: 0.6 }}
             >
-              <p className="text-muted-gray text-sm uppercase tracking-wider mb-2">Email</p>
+              <p className="text-slate-light text-sm uppercase tracking-wider mb-2">Email</p>
               <a
                 href={artistInfo.contact.emailLink}
-                className="text-warm-white font-display text-xl md:text-2xl font-medium hover:opacity-70 transition-opacity"
+                className="text-primary-blue font-display text-xl md:text-2xl font-medium hover:opacity-70 transition-opacity"
               >
                 {artistInfo.contact.email}
               </a>
@@ -52,10 +52,10 @@ export default function ContactSection() {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.3, duration: 0.6 }}
             >
-              <p className="text-muted-gray text-sm uppercase tracking-wider mb-2">Phone</p>
+              <p className="text-slate-light text-sm uppercase tracking-wider mb-2">Phone</p>
               <a
                 href={artistInfo.contact.phoneLink}
-                className="text-warm-white font-display text-2xl md:text-3xl font-medium hover:opacity-70 transition-opacity"
+                className="text-primary-blue font-display text-2xl md:text-3xl font-medium hover:opacity-70 transition-opacity"
               >
                 {artistInfo.contact.phone}
               </a>
@@ -74,34 +74,34 @@ export default function ContactSection() {
               href={artistInfo.contact.telegram}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-warm-white text-base font-medium hover:opacity-70 transition-opacity"
+              className="text-slate-text text-base font-medium hover:text-primary-blue transition-colors"
             >
               Telegram
             </a>
-            <span className="text-white/20">•</span>
+            <span className="text-slate-light/40">•</span>
             <a
               href={artistInfo.contact.tiktok}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-warm-white text-base font-medium hover:opacity-70 transition-opacity"
+              className="text-slate-text text-base font-medium hover:text-primary-blue transition-colors"
             >
               TikTok
             </a>
-            <span className="text-white/20">•</span>
+            <span className="text-slate-light/40">•</span>
             <a
               href={artistInfo.contact.instagram}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-warm-white text-base font-medium hover:opacity-70 transition-opacity"
+              className="text-slate-text text-base font-medium hover:text-primary-blue transition-colors"
             >
               Instagram
             </a>
-            <span className="text-white/20">•</span>
+            <span className="text-slate-light/40">•</span>
             <a
               href={artistInfo.contact.youtube}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-warm-white text-base font-medium hover:opacity-70 transition-opacity"
+              className="text-slate-text text-base font-medium hover:text-primary-blue transition-colors"
             >
               YouTube
             </a>
@@ -118,7 +118,7 @@ export default function ContactSection() {
                 const element = document.getElementById('work');
                 if (element) element.scrollIntoView({ behavior: 'smooth' });
               }}
-              className="inline-flex items-center gap-3 px-10 py-5 bg-warm-white text-near-black font-medium text-base uppercase tracking-wider hover:scale-105 transition-transform duration-300"
+              className="inline-flex items-center gap-3 px-10 py-5 bg-primary-blue text-white font-medium text-base uppercase tracking-wider hover:scale-105 hover:bg-dark-blue transition-all duration-300 shadow-lg shadow-primary-blue/30 rounded-lg"
             >
               Start a Project
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2">

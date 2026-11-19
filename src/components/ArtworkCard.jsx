@@ -18,7 +18,7 @@ export default function ArtworkCard({ artwork, onClick, index, variant = 'defaul
       whileHover={{ y: -4 }}
       onClick={() => onClick(artwork)}
       aria-label={`View project: ${artwork.title}`}
-      className="group relative block w-full overflow-hidden bg-charcoal text-left focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-warm-white"
+      className="group relative block w-full overflow-hidden bg-white shadow-lg shadow-primary-blue/10 text-left focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary-blue rounded-lg hover:shadow-xl hover:shadow-primary-blue/20 transition-all duration-300"
       style={{ aspectRatio }}
     >
       <img
@@ -31,20 +31,20 @@ export default function ArtworkCard({ artwork, onClick, index, variant = 'defaul
       <div className="absolute inset-0 bg-gradient-to-t from-near-black/90 via-near-black/10 to-transparent opacity-90 transition-opacity duration-300 group-hover:opacity-100" />
 
       {artwork.featured && (
-        <span className="absolute left-4 top-4 text-[10px] uppercase tracking-[0.2em] text-warm-white/80">
+        <span className="absolute left-4 top-4 z-10 text-[10px] uppercase tracking-[0.2em] text-white bg-primary-blue px-3 py-1 rounded-full">
           Featured
         </span>
       )}
 
-      <div className="absolute inset-x-0 bottom-0 p-4 sm:p-6">
-        <p className="mb-2 text-[10px] uppercase tracking-[0.18em] text-warm-white/70 sm:text-xs">
+      <div className="absolute inset-x-0 bottom-0 p-4 sm:p-6 bg-gradient-to-t from-slate-text/90 via-slate-text/70 to-transparent">
+        <p className="mb-2 text-[10px] uppercase tracking-[0.18em] text-white/90 sm:text-xs">
           {artwork.categoryLabel || artwork.category?.replace('-', ' ')}
         </p>
-        <h3 className="font-display text-lg font-semibold leading-tight text-warm-white sm:text-2xl">
+        <h3 className="font-display text-lg font-semibold leading-tight text-white sm:text-2xl">
           {artwork.title}
         </h3>
         {artwork.contributionType === 'Collaborative project' && (
-          <p className="mt-2 text-xs text-warm-white/60">
+          <p className="mt-2 text-xs text-white/80">
             Collaborative project
           </p>
         )}

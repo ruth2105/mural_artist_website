@@ -15,7 +15,7 @@ export default function ServicesSection() {
   };
 
   return (
-    <section id="services" ref={ref} className="relative py-24 md:py-32 bg-near-black">
+    <section id="services" ref={ref} className="relative py-24 md:py-32 bg-white">
       <div className="max-w-6xl mx-auto px-6 md:px-12">
         <SectionHeading
           title="SERVICES"
@@ -35,16 +35,16 @@ export default function ServicesSection() {
               {/* Service Number */}
               <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-start">
                 <div className="flex-shrink-0">
-                  <span className="text-warm-white/20 font-display font-bold text-6xl md:text-8xl">
+                  <span className="text-primary-blue/30 font-display font-bold text-6xl md:text-8xl">
                     {service.id}
                   </span>
                 </div>
 
                 <div className="flex-1 pt-2">
-                  <h3 className="text-warm-white font-display font-bold text-2xl md:text-4xl mb-4 tracking-tight">
+                  <h3 className="text-slate-text font-display font-bold text-2xl md:text-4xl mb-4 tracking-tight">
                     {service.title}
                   </h3>
-                  <p className="text-warm-white/70 text-lg leading-relaxed mb-6">
+                  <p className="text-slate-text/70 text-lg leading-relaxed mb-6">
                     {service.description}
                   </p>
 
@@ -59,10 +59,10 @@ export default function ServicesSection() {
                           fill="none"
                           className="flex-shrink-0 mt-1"
                         >
-                          <circle cx="10" cy="10" r="8" stroke="currentColor" strokeWidth="2" className="text-warm-white/30" />
-                          <circle cx="10" cy="10" r="4" fill="currentColor" className="text-warm-white" />
+                          <circle cx="10" cy="10" r="8" stroke="currentColor" strokeWidth="2" className="text-primary-blue/30" />
+                          <circle cx="10" cy="10" r="4" fill="currentColor" className="text-primary-blue" />
                         </svg>
-                        <span className="text-warm-white/80 text-sm">{feature}</span>
+                        <span className="text-slate-text/80 text-sm">{feature}</span>
                       </li>
                     ))}
                   </ul>
@@ -71,7 +71,7 @@ export default function ServicesSection() {
 
               {/* Divider */}
               {index < services.length - 1 && (
-                <div className="mt-16 md:mt-24 h-[1px] bg-white/10" />
+                <div className="mt-16 md:mt-24 h-[1px] bg-primary-blue/20" />
               )}
             </motion.div>
           ))}
@@ -86,7 +86,7 @@ export default function ServicesSection() {
         >
           <button
             onClick={scrollToContact}
-            className="inline-flex items-center gap-2 px-8 py-4 bg-warm-white text-near-black font-medium text-sm uppercase tracking-wider hover:scale-105 transition-transform duration-300"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-primary-blue text-white font-medium text-sm uppercase tracking-wider hover:scale-105 hover:bg-dark-blue transition-all duration-300 shadow-lg shadow-primary-blue/30 rounded-lg"
           >
             Discuss a Project
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2">

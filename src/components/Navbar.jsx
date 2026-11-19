@@ -39,8 +39,8 @@ export default function Navbar() {
         transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
           isScrolled
-            ? 'bg-near-black/95 backdrop-blur-md border-b border-white/10'
-            : 'bg-transparent'
+            ? 'bg-white/95 backdrop-blur-md border-b border-primary-blue/20 shadow-md'
+            : 'bg-gradient-to-b from-white/80 to-transparent'
         }`}
       >
         <div className="max-w-[1800px] mx-auto px-6 md:px-12 py-6">
@@ -48,7 +48,7 @@ export default function Navbar() {
             {/* Logo */}
             <button
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-              className="text-warm-white font-stencil text-lg md:text-xl tracking-[0.04em] hover:opacity-70 transition-opacity"
+              className="text-primary-blue font-stencil text-lg md:text-xl tracking-[0.04em] hover:opacity-70 transition-opacity"
             >
               {artistInfo.name}
             </button>
@@ -59,10 +59,10 @@ export default function Navbar() {
                 <button
                   key={link.id}
                   onClick={() => scrollToSection(link.id)}
-                  className="relative text-warm-white text-sm font-medium tracking-wider group"
+                  className="relative text-slate-text text-sm font-medium tracking-wider group hover:text-primary-blue transition-colors"
                 >
                   {link.label}
-                  <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-warm-white transition-all duration-300 group-hover:w-full" />
+                  <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-primary-blue transition-all duration-300 group-hover:w-full" />
                 </button>
               ))}
             </div>
@@ -70,7 +70,7 @@ export default function Navbar() {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMobileMenuOpen(true)}
-              className="md:hidden text-warm-white p-2"
+              className="md:hidden text-slate-text p-2 hover:text-primary-blue transition-colors"
               aria-label="Open menu"
             >
               <svg

@@ -76,7 +76,7 @@ export default function CommissionForm() {
       <div className="grid md:grid-cols-2 gap-6">
         {/* Full Name */}
         <div>
-          <label htmlFor="fullName" className="block text-warm-white text-sm font-medium mb-2">
+          <label htmlFor="fullName" className="block text-slate-text text-sm font-medium mb-2">
             Full Name *
           </label>
           <input
@@ -86,14 +86,14 @@ export default function CommissionForm() {
             value={formData.fullName}
             onChange={handleChange}
             required
-            className="w-full px-4 py-3 bg-charcoal border border-white/20 text-warm-white placeholder-muted-gray focus:border-warm-white focus:outline-none transition-colors"
+            className="w-full px-4 py-3 bg-white border border-primary-blue/30 text-slate-text placeholder-slate-light focus:border-primary-blue focus:ring-2 focus:ring-primary-blue/20 focus:outline-none transition-all rounded-lg"
             placeholder="Your name"
           />
         </div>
 
         {/* Phone */}
         <div>
-          <label htmlFor="phone" className="block text-warm-white text-sm font-medium mb-2">
+          <label htmlFor="phone" className="block text-slate-text text-sm font-medium mb-2">
             Phone Number *
           </label>
           <input
@@ -103,7 +103,7 @@ export default function CommissionForm() {
             value={formData.phone}
             onChange={handleChange}
             required
-            className="w-full px-4 py-3 bg-charcoal border border-white/20 text-warm-white placeholder-muted-gray focus:border-warm-white focus:outline-none transition-colors"
+            className="w-full px-4 py-3 bg-white border border-primary-blue/30 text-slate-text placeholder-slate-light focus:border-primary-blue focus:ring-2 focus:ring-primary-blue/20 focus:outline-none transition-all rounded-lg"
             placeholder="+251 91 234 5678"
           />
         </div>
@@ -112,7 +112,7 @@ export default function CommissionForm() {
       <div className="grid md:grid-cols-2 gap-6">
         {/* Project Type */}
         <div>
-          <label htmlFor="projectType" className="block text-warm-white text-sm font-medium mb-2">
+          <label htmlFor="projectType" className="block text-slate-text text-sm font-medium mb-2">
             Project Type *
           </label>
           <select
@@ -142,7 +142,7 @@ export default function CommissionForm() {
             name="projectLocation"
             value={formData.projectLocation}
             onChange={handleChange}
-            className="w-full px-4 py-3 bg-charcoal border border-white/20 text-warm-white placeholder-muted-gray focus:border-warm-white focus:outline-none transition-colors"
+            className="w-full px-4 py-3 bg-white border border-primary-blue/30 text-slate-text placeholder-slate-light focus:border-primary-blue focus:ring-2 focus:ring-primary-blue/20 focus:outline-none transition-all rounded-lg"
             placeholder="City or region"
           />
         </div>
@@ -158,7 +158,7 @@ export default function CommissionForm() {
             name="surfaceType"
             value={formData.surfaceType}
             onChange={handleChange}
-            className="w-full px-4 py-3 bg-charcoal border border-white/20 text-warm-white placeholder-muted-gray focus:border-warm-white focus:outline-none transition-colors"
+            className="w-full px-4 py-3 bg-white border border-primary-blue/30 text-slate-text placeholder-slate-light focus:border-primary-blue focus:ring-2 focus:ring-primary-blue/20 focus:outline-none transition-all rounded-lg"
             placeholder="e.g., Interior wall, exterior brick"
           />
         </div>
@@ -209,7 +209,7 @@ export default function CommissionForm() {
             name="budget"
             value={formData.budget}
             onChange={handleChange}
-            className="w-full px-4 py-3 bg-charcoal border border-white/20 text-warm-white placeholder-muted-gray focus:border-warm-white focus:outline-none transition-colors"
+            className="w-full px-4 py-3 bg-white border border-primary-blue/30 text-slate-text placeholder-slate-light focus:border-primary-blue focus:ring-2 focus:ring-primary-blue/20 focus:outline-none transition-all rounded-lg"
             placeholder="Optional"
           />
         </div>
@@ -225,7 +225,7 @@ export default function CommissionForm() {
             name="timeline"
             value={formData.timeline}
             onChange={handleChange}
-            className="w-full px-4 py-3 bg-charcoal border border-white/20 text-warm-white placeholder-muted-gray focus:border-warm-white focus:outline-none transition-colors"
+            className="w-full px-4 py-3 bg-white border border-primary-blue/30 text-slate-text placeholder-slate-light focus:border-primary-blue focus:ring-2 focus:ring-primary-blue/20 focus:outline-none transition-all rounded-lg"
             placeholder="Optional"
           />
         </div>

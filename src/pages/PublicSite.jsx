@@ -35,7 +35,7 @@ export default function PublicSite() {
     <>
       <PageLoader />
       <ScrollIndicator />
-      <div className="min-h-screen bg-near-black text-warm-white">
+      <div className="min-h-screen bg-white text-slate-text">
         <Navbar />
         
         <main>

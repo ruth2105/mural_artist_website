@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Light Blue/White Theme - Global Variables */
+:root {
+  --color-primary-blue: #3B82F6;
+  --color-light-blue: #DBEAFE;
+  --color-sky-blue: #60A5FA;
+  --color-dark-blue: #1E40AF;
+  --color-slate-text: #1E293B;
+  --color-slate-light: #64748B;
+  --color-bg-white: #FFFFFF;
+  --color-bg-light: #F8FAFC;
+  --color-accent-blue: #3B82F6;
+}
+
+/* Ensure smooth transitions for theme */
+* {
+  transition-property: background-color, border-color, color;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+}
+
 @layer base {
   body {
     @apply bg-near-black text-warm-white;

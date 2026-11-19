@@ -32,7 +32,7 @@ export default function ArtworkGallery({ onProjectClick }) {
   ));
 
   return (
-    <section id="work" ref={ref} className="relative bg-near-black py-20 md:py-28">
+    <section id="work" ref={ref} className="relative bg-gradient-to-br from-white via-light-blue/20 to-white py-20 md:py-28">
       <div className="mx-auto max-w-[1800px] px-5 sm:px-8 md:px-12">
         <SectionHeading
           title="SELECTED WORK"
@@ -52,10 +52,10 @@ export default function ArtworkGallery({ onProjectClick }) {
               type="button"
               onClick={() => setActiveCategory(category.id)}
               aria-pressed={activeCategory === category.id}
-              className={`shrink-0 border px-4 py-2.5 text-[11px] uppercase tracking-[0.12em] transition-colors sm:px-5 sm:text-xs ${
+              className={`shrink-0 border px-4 py-2.5 text-[11px] uppercase tracking-[0.12em] transition-all sm:px-5 sm:text-xs rounded-lg ${
                 activeCategory === category.id
-                  ? 'border-warm-white bg-warm-white text-near-black'
-                  : 'border-white/20 text-warm-white/75 hover:border-white/50 hover:text-warm-white'
+                  ? 'border-primary-blue bg-primary-blue text-white shadow-lg shadow-primary-blue/30'
+                  : 'border-primary-blue/30 text-slate-text bg-white hover:border-primary-blue hover:bg-light-blue/30'
               }`}
             >
               {category.label}
@@ -78,14 +78,14 @@ export default function ArtworkGallery({ onProjectClick }) {
 
               return (
                 <section key={section.id} aria-labelledby={`${section.id}-heading`}>
-                  <div className="mb-6 flex items-end justify-between border-b border-white/15 pb-4 md:mb-8">
+                  <div className="mb-6 flex items-end justify-between border-b border-primary-blue/20 pb-4 md:mb-8">
                     <h3
                       id={`${section.id}-heading`}
-                      className="font-display text-xl font-semibold tracking-tight text-warm-white sm:text-2xl md:text-3xl"
+                      className="font-display text-xl font-semibold tracking-tight text-primary-blue sm:text-2xl md:text-3xl"
                     >
                       {sectionCategory.label}
                     </h3>
-                    <span className="pb-1 text-[10px] uppercase tracking-[0.16em] text-muted-gray sm:text-xs">
+                    <span className="pb-1 text-[10px] uppercase tracking-[0.16em] text-slate-light sm:text-xs">
                       {String(sectionArtworks.length).padStart(2, '0')} projects
                     </span>
                   </div>
@@ -103,7 +103,7 @@ export default function ArtworkGallery({ onProjectClick }) {
                       ))}
                     </div>
                   ) : (
-                    <p className="border border-white/10 bg-charcoal px-5 py-8 text-center text-muted-gray">
+                    <p className="border border-primary-blue/20 bg-light-blue/30 px-5 py-8 text-center text-slate-light rounded-lg">
                       No artwork has been added to this category yet.
                     </p>
                   )}

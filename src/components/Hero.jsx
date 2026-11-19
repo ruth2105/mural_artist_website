@@ -13,7 +13,7 @@ export default function Hero({ onExploreClick, onContactClick }) {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-near-black">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-light-blue via-white to-sky-blue/20">
       {/* Background Image */}
       <motion.div
         initial={{ scale: 1.1, opacity: 0 }}
@@ -21,7 +21,7 @@ export default function Hero({ onExploreClick, onContactClick }) {
         transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1] }}
         className="absolute inset-0"
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-near-black/60 via-near-black/40 to-near-black/90 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-b from-white/95 via-light-blue/90 to-white/95 z-10" />
         <img
           src="https://utuagxjsqluwmexkinik.supabase.co/storage/v1/object/public/artwork/portfolio-media/Mr%20Jon/Mrr%20Jon/main%20page/For%20Front%20Page.webp"
           alt="Artist working on a wall mural"
@@ -42,7 +42,7 @@ export default function Hero({ onExploreClick, onContactClick }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
         >
-          <p className="text-muted-gray text-xs md:text-sm uppercase tracking-[0.3em] mb-6">
+          <p className="text-slate-light text-xs md:text-sm uppercase tracking-[0.3em] mb-6">
             Visual Artist / Muralist / Designer
           </p>
         </motion.div>
@@ -51,7 +51,7 @@ export default function Hero({ onExploreClick, onContactClick }) {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="font-stencil text-warm-white mb-6"
+          className="font-stencil text-slate-text mb-6"
           style={{
             fontSize: 'clamp(3rem, 10.5vw, 8rem)',
             lineHeight: '0.95',
@@ -65,7 +65,7 @@ export default function Hero({ onExploreClick, onContactClick }) {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="text-warm-white text-xl md:text-3xl font-display font-medium mb-8 tracking-tight"
+          className="text-primary-blue text-xl md:text-3xl font-display font-medium mb-8 tracking-tight"
         >
           Art without Boundaries.
         </motion.p>
@@ -74,7 +74,7 @@ export default function Hero({ onExploreClick, onContactClick }) {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="text-warm-white/80 text-base md:text-lg max-w-3xl mx-auto mb-12 leading-relaxed"
+          className="text-slate-text/90 text-base md:text-lg max-w-3xl mx-auto mb-12 leading-relaxed"
         >
           From large-scale mural installations and custom graffiti to complete brand identity and graphic design, 
           I bring creative visions to life in physical and digital spaces.
@@ -88,13 +88,9 @@ export default function Hero({ onExploreClick, onContactClick }) {
         >
           <button
             onClick={scrollToWork}
-            className="group relative px-8 py-4 bg-warm-white text-near-black font-medium text-sm uppercase tracking-wider overflow-hidden transition-all duration-300 hover:scale-105"
+            className="group relative px-8 py-4 bg-primary-blue text-white font-medium text-sm uppercase tracking-wider overflow-hidden transition-all duration-300 hover:scale-105 hover:bg-dark-blue shadow-lg shadow-primary-blue/30"
           >
             <span className="relative z-10">Explore The Work</span>
-            <div className="absolute inset-0 bg-near-black transform translate-y-full transition-transform duration-300 group-hover:translate-y-0" />
-            <span className="absolute inset-0 z-10 flex items-center justify-center text-warm-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              Explore The Work
-            </span>
           </button>
 
           <button
@@ -102,7 +98,7 @@ export default function Hero({ onExploreClick, onContactClick }) {
               const element = document.getElementById('contact');
               if (element) element.scrollIntoView({ behavior: 'smooth' });
             }}
-            className="px-8 py-4 border-2 border-warm-white text-warm-white font-medium text-sm uppercase tracking-wider hover:bg-warm-white hover:text-near-black transition-all duration-300"
+            className="px-8 py-4 border-2 border-primary-blue text-primary-blue font-medium text-sm uppercase tracking-wider hover:bg-primary-blue hover:text-white transition-all duration-300"
           >
             Start A Project
           </button>
@@ -122,7 +118,7 @@ export default function Hero({ onExploreClick, onContactClick }) {
           className="flex flex-col items-center gap-2 cursor-pointer"
           onClick={scrollToWork}
         >
-          <p className="text-warm-white/60 text-xs uppercase tracking-wider">Scroll</p>
+          <p className="text-slate-light text-xs uppercase tracking-wider">Scroll</p>
           <svg
             width="20"
             height="20"
@@ -130,7 +126,7 @@ export default function Hero({ onExploreClick, onContactClick }) {
             fill="none"
             stroke="currentColor"
             strokeWidth="2"
-            className="text-warm-white/60"
+            className="text-slate-light"
           >
             <line x1="10" y1="5" x2="10" y2="15" />
             <polyline points="6,11 10,15 14,11" />

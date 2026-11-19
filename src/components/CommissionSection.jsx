@@ -8,7 +8,7 @@ export default function CommissionSection() {
   const [showForm, setShowForm] = useState(false);
 
   return (
-    <section ref={ref} className="relative py-24 md:py-32 bg-near-black">
+    <section ref={ref} className="relative py-24 md:py-32 bg-gradient-to-br from-white via-light-blue/20 to-white">
       <div className="max-w-4xl mx-auto px-6 md:px-12">
         {!showForm ? (
           <motion.div
@@ -17,10 +17,10 @@ export default function CommissionSection() {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-center"
           >
-            <h2 className="font-display font-bold text-warm-white text-5xl md:text-7xl mb-6 tracking-tight">
+            <h2 className="font-display font-bold text-slate-text text-5xl md:text-7xl mb-6 tracking-tight">
               HAVE AN IDEA?
             </h2>
-            <p className="text-warm-white/70 text-lg md:text-xl mb-12 max-w-2xl mx-auto">
+            <p className="text-slate-text/70 text-lg md:text-xl mb-12 max-w-2xl mx-auto">
               Let's discuss your next mural, visual identity, or creative project.
             </p>
             <button
@@ -43,7 +43,7 @@ export default function CommissionSection() {
             <div className="mb-8">
               <button
                 onClick={() => setShowForm(false)}
-                className="flex items-center gap-2 text-warm-white/70 hover:text-warm-white transition-colors text-sm mb-6"
+                className="flex items-center gap-2 text-slate-light hover:text-slate-text transition-colors text-sm mb-6"
               >
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2">
                   <line x1="12" y1="8" x2="4" y2="8" />
@@ -51,10 +51,10 @@ export default function CommissionSection() {
                 </svg>
                 Back
               </button>
-              <h2 className="font-display font-bold text-warm-white text-4xl md:text-5xl mb-3 tracking-tight">
+              <h2 className="font-display font-bold text-slate-text text-4xl md:text-5xl mb-3 tracking-tight">
                 Project Inquiry
               </h2>
-              <p className="text-warm-white/70 text-lg">
+              <p className="text-slate-text/70 text-lg">
                 Fill out the details below and I'll get back to you soon.
               </p>
             </div>
