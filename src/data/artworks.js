@@ -1221,10 +1221,11 @@ const additionalProjects = [
     ],
   }),
   additionalProject({
-    id: 'big-projects-game-zone',
+    id: 'collaborations-game-zone',
     title: 'Game Zone',
+    category: 'collaborations',
     sourceFolder: 'Mr Jon/Mrr Jon/Additional (1)/Additional/Game Zone',
-    displayOrder: 6,
+    displayOrder: 13,
     images: [
       '2026_11_15_23_03_58_IMG_4501.webp',
       '2026_11_15_23_05_49_IMG_4508.webp',
@@ -1254,7 +1255,6 @@ const majorProjectOrder = {
   'big-projects-black-lion-coffee': 3,
   'big-projects-merit': 4,
   'big-projects-cortado-coffee': 5,
-  'big-projects-game-zone': 6,
 };
 
 const verifiedProjectTitles = {
