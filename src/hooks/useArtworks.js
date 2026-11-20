@@ -2,6 +2,12 @@ import { useState, useEffect } from 'react';
 import { supabase } from '../lib/supabase';
 import { artworks as staticArtworks } from '../data/artworks';
 
+function normalizeCategorySlug(slug) {
+  if (slug === 'major-projects' || slug === 'murals') return 'big-projects';
+  if (slug === 'advertising' || slug === 'printing') return 'advertising-printing';
+  return slug;
+}
+
 export function useArtworks(category = 'all') {
   const [artworks, setArtworks] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -12,6 +18,8 @@ export function useArtworks(category = 'all') {
   }, [category]);
 
   async function fetchArtworks() {
+    setLoading(true);
+    setError(null);
     try {
       // Try to fetch from Supabase first
       if (!supabase) {
@@ -54,9 +62,19 @@ export function useArtworks(category = 'all') {
 
       if (fetchError) {
         console.error('Error fetching artworks from DB, using static data:', fetchError);
+        setError(fetchError.message);
         // Fallback to static data
         const filtered = category === 'all' 
           ? staticArtworks 
+          : staticArtworks.filter(a => a.category === category);
+        setArtworks(filtered);
+        setLoading(false);
+        return;
+      }
+
+      if (!data?.length) {
+        const filtered = category === 'all'
+          ? staticArtworks
           : staticArtworks.filter(a => a.category === category);
         setArtworks(filtered);
         setLoading(false);
@@ -67,7 +85,7 @@ export function useArtworks(category = 'all') {
       const transformed = data.map(artwork => ({
         id: artwork.slug,
         title: artwork.title,
-        category: artwork.categories?.slug || category,
+        category: normalizeCategorySlug(artwork.categories?.slug || category),
         categoryLabel: artwork.categories?.label || '',
         ownership: artwork.ownership_type,
         image: artwork.main_image_url,

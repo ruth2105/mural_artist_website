@@ -25,7 +25,7 @@ export default function CommissionSection() {
             </p>
             <button
               onClick={() => setShowForm(true)}
-              className="inline-flex items-center gap-3 px-10 py-5 bg-warm-white text-near-black font-medium text-base uppercase tracking-wider hover:scale-105 transition-transform duration-300"
+              className="inline-flex items-center gap-3 px-10 py-5 bg-primary-blue text-white font-medium text-base uppercase tracking-wider hover:scale-105 hover:bg-dark-blue active:bg-[#0F55D9] transition-all duration-300 rounded-lg"
             >
               Start a Project
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2">

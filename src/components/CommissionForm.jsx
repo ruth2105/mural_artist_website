@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { supabase } from '../lib/supabase';
+import { getSupabaseConfigError, supabase } from '../lib/supabase';
 
 export default function CommissionForm() {
   const [formData, setFormData] = useState({
     fullName: '',
     phone: '',
+    email: '',
     projectType: '',
     projectLocation: '',
     surfaceType: '',
@@ -29,11 +30,14 @@ export default function CommissionForm() {
     setStatus('loading');
 
     try {
+      if (!supabase) {
+        throw new Error(getSupabaseConfigError() || 'The inquiry service is unavailable.');
+      }
       const { error } = await supabase
         .from('commission_inquiries')
         .insert([{
           full_name: formData.fullName,
-          email: null,
+          email: formData.email || 'Not provided',
           phone: formData.phone,
           project_type: formData.projectType,
           project_location: formData.projectLocation,
@@ -51,6 +55,7 @@ export default function CommissionForm() {
       setFormData({
         fullName: '',
         phone: '',
+        email: '',
         projectType: '',
         projectLocation: '',
         surfaceType: '',
@@ -105,6 +110,21 @@ export default function CommissionForm() {
             required
             className="w-full px-4 py-3 bg-white border border-primary-blue/30 text-slate-text placeholder-slate-light focus:border-primary-blue focus:ring-2 focus:ring-primary-blue/20 focus:outline-none transition-all rounded-lg"
             placeholder="+251 91 234 5678"
+          />
+        </div>
+
+        <div>
+          <label htmlFor="email" className="block text-slate-text text-sm font-medium mb-2">
+            Email
+          </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            className="w-full px-4 py-3 bg-white border border-primary-blue/30 text-slate-text placeholder-slate-light focus:border-primary-blue focus:ring-2 focus:ring-primary-blue/20 focus:outline-none transition-all rounded-lg"
+            placeholder="you@example.com"
           />
         </div>
       </div>
@@ -236,7 +256,7 @@ export default function CommissionForm() {
         <button
           type="submit"
           disabled={status === 'loading'}
-          className="w-full md:w-auto px-12 py-4 bg-warm-white text-near-black font-medium text-sm uppercase tracking-wider hover:scale-105 transition-transform duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+          className="w-full md:w-auto px-12 py-4 bg-primary-blue text-white font-medium text-sm uppercase tracking-wider hover:bg-dark-blue active:bg-[#0F55D9] rounded-lg transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {status === 'loading' ? 'Sending...' : 'Submit Inquiry'}
         </button>

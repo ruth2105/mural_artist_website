@@ -4,10 +4,15 @@
 
 /* Light Blue/White Theme - Global Variables */
 :root {
-  --color-primary-blue: #3B82F6;
-  --color-light-blue: #DBEAFE;
-  --color-sky-blue: #60A5FA;
-  --color-dark-blue: #1E40AF;
+  --brand-blue: #1769FF;
+  --brand-blue-hover: #0F55D9;
+  --brand-blue-soft: #EAF1FF;
+  --brand-blue-dark: #0B2F86;
+  --brand-blue-contrast: #FFFFFF;
+  --color-primary-blue: var(--brand-blue);
+  --color-light-blue: var(--brand-blue-soft);
+  --color-sky-blue: var(--brand-blue-soft);
+  --color-dark-blue: var(--brand-blue-dark);
   --color-slate-text: #1E293B;
   --color-slate-light: #64748B;
   --color-bg-white: #FFFFFF;
@@ -59,7 +64,8 @@
 
   /* Focus visible */
   *:focus-visible {
-    @apply outline-2 outline-offset-2 outline-warm-white;
+    outline: 3px solid var(--brand-blue);
+    outline-offset: 3px;
   }
 
   /* Remove default button styles */
@@ -119,4 +125,19 @@ img {
 /* Prevent layout shift */
 img[loading="lazy"] {
   min-height: 200px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
 }

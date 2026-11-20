@@ -6,6 +6,7 @@ import { artistInfo } from '../data/artist';
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState('');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -14,6 +15,23 @@ export default function Navbar() {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  useEffect(() => {
+    const sectionIds = ['work', 'behind-the-art', 'about', 'services', 'contact'];
+    const sections = sectionIds
+      .map((id) => document.getElementById(id))
+      .filter(Boolean);
+
+    const observer = new IntersectionObserver((entries) => {
+      const visible = entries
+        .filter((entry) => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+      if (visible) setActiveSection(visible.target.id);
+    }, { rootMargin: '-20% 0px -55%', threshold: [0.05, 0.25, 0.5] });
+
+    sections.forEach((section) => observer.observe(section));
+    return () => observer.disconnect();
   }, []);
 
   const scrollToSection = (id) => {
@@ -26,7 +44,7 @@ export default function Navbar() {
   const navLinks = [
     { label: 'PROJECT', id: 'work' },
     { label: 'VIDEOS', id: 'behind-the-art' },
-    { label: 'ABOUT Jo Creates', id: 'about' },
+    { label: 'ABOUT JON', id: 'about' },
     { label: 'SERVICES', id: 'services' },
     { label: 'CONTACT', id: 'contact' }
   ];
@@ -48,7 +66,7 @@ export default function Navbar() {
             {/* Logo */}
             <button
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-              className="text-primary-blue font-stencil text-lg md:text-xl tracking-[0.04em] hover:opacity-70 transition-opacity"
+              className="text-primary-blue font-stencil text-lg md:text-xl tracking-[0.04em] hover:text-dark-blue transition-colors"
             >
               {artistInfo.name}
             </button>
@@ -59,10 +77,17 @@ export default function Navbar() {
                 <button
                   key={link.id}
                   onClick={() => scrollToSection(link.id)}
-                  className="relative text-slate-text text-sm font-medium tracking-wider group hover:text-primary-blue transition-colors"
+                  aria-current={activeSection === link.id ? 'page' : undefined}
+                  className={`relative text-sm font-medium tracking-wider group transition-colors ${
+                    activeSection === link.id
+                      ? 'text-primary-blue'
+                      : 'text-slate-text hover:text-primary-blue'
+                  }`}
                 >
                   {link.label}
-                  <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-primary-blue transition-all duration-300 group-hover:w-full" />
+                  <span className={`absolute -bottom-1 left-0 h-[2px] bg-primary-blue transition-all duration-300 ${
+                    activeSection === link.id ? 'w-full' : 'w-0 group-hover:w-full'
+                  }`} />
                 </button>
               ))}
             </div>
@@ -72,6 +97,8 @@ export default function Navbar() {
               onClick={() => setIsMobileMenuOpen(true)}
               className="md:hidden text-slate-text p-2 hover:text-primary-blue transition-colors"
               aria-label="Open menu"
+              aria-expanded={isMobileMenuOpen}
+              aria-controls="mobile-navigation"
             >
               <svg
                 width="24"

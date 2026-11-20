@@ -6,15 +6,15 @@ export const categories = [
   },
   {
     "id": "big-projects",
-    "label": "Big Projects Own by Me"
+    "label": "Major Projects"
   },
   {
     "id": "collaborations",
-    "label": "Projects Done by Collaboration"
+    "label": "Collaborations"
   },
   {
     "id": "small-projects",
-    "label": "Small Mural Art Gallery"
+    "label": "Small-Scale Murals"
   },
   {
     "id": "advertising-printing",

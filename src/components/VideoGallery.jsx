@@ -1,22 +1,44 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { artworks, projectFilms } from '../data/artworks';
 import SectionHeading from './SectionHeading';
 
 function FilmViewer({ film, project, onClose, onProjectClick }) {
   const [hasPlaybackError, setHasPlaybackError] = useState(false);
+  const dialogRef = useRef(null);
+  const closeButtonRef = useRef(null);
+  const previousFocusRef = useRef(null);
 
   useEffect(() => {
     const previousOverflow = document.body.style.overflow;
+    previousFocusRef.current = document.activeElement;
     document.body.style.overflow = 'hidden';
+    window.requestAnimationFrame(() => closeButtonRef.current?.focus());
     const handleKeyDown = (event) => {
-      if (event.key === 'Escape') onClose();
+      if (event.key === 'Escape') {
+        onClose();
+      } else if (event.key === 'Tab') {
+        const focusable = dialogRef.current?.querySelectorAll(
+          'button:not([disabled]), a[href], video[controls]'
+        );
+        if (!focusable?.length) return;
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (event.shiftKey && document.activeElement === first) {
+          event.preventDefault();
+          last.focus();
+        } else if (!event.shiftKey && document.activeElement === last) {
+          event.preventDefault();
+          first.focus();
+        }
+      }
     };
 
     window.addEventListener('keydown', handleKeyDown);
     return () => {
       document.body.style.overflow = previousOverflow;
       window.removeEventListener('keydown', handleKeyDown);
+      previousFocusRef.current?.focus?.();
     };
   }, [onClose]);
 
@@ -26,6 +48,7 @@ function FilmViewer({ film, project, onClose, onProjectClick }) {
 
   return (
     <motion.div
+      ref={dialogRef}
       role="dialog"
       aria-modal="true"
       aria-labelledby="film-viewer-title"
@@ -40,10 +63,11 @@ function FilmViewer({ film, project, onClose, onProjectClick }) {
         onClick={(event) => event.stopPropagation()}
       >
         <button
+          ref={closeButtonRef}
           type="button"
           onClick={onClose}
           aria-label="Close project film"
-          className="absolute -top-12 right-0 p-2 text-warm-white hover:opacity-70"
+          className="absolute -top-12 right-0 p-2 text-warm-white hover:text-primary-blue transition-colors"
         >
           <span aria-hidden="true" className="text-3xl leading-none">×</span>
         </button>
@@ -83,7 +107,7 @@ function FilmViewer({ film, project, onClose, onProjectClick }) {
                 onClose();
                 onProjectClick(project);
               }}
-              className="self-start border-b border-warm-white/50 pb-1 text-xs uppercase tracking-[0.14em] text-warm-white hover:border-warm-white sm:self-auto"
+                className="self-start border-b border-primary-blue pb-1 text-xs uppercase tracking-[0.14em] text-primary-blue hover:border-[#0F55D9] hover:text-[#0F55D9] sm:self-auto"
             >
               View project
             </button>
@@ -122,7 +146,8 @@ export default function VideoGallery({ onProjectClick }) {
                     src={film.poster}
                     alt={`${film.title} project film poster`}
                     className="aspect-video w-full object-cover transition-transform duration-700 group-hover:scale-[1.025]"
-                    loading={index < 3 ? 'eager' : 'lazy'}
+                    loading="lazy"
+                    decoding="async"
                   />
                   <span className="absolute inset-0 flex items-center justify-center bg-near-black/10 transition-colors group-hover:bg-near-black/30">
                     <span className="flex h-14 w-14 items-center justify-center border border-warm-white/80 bg-near-black/35 text-warm-white transition-transform group-hover:scale-105 sm:h-16 sm:w-16">

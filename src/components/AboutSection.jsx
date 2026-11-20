@@ -34,7 +34,7 @@ export default function AboutSection() {
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
           >
-            <p className="text-slate-light text-xs uppercase tracking-[0.3em] mb-4">
+            <p className="text-dark-blue text-xs uppercase tracking-[0.3em] mb-4">
               The Artist
             </p>
             <h2 className="font-display font-bold text-slate-text text-4xl md:text-5xl mb-6 tracking-tight">

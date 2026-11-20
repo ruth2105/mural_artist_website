@@ -39,8 +39,14 @@ export default function ProcessSection() {
               )}
               
               {/* Number Circle */}
-              <div className="relative inline-flex items-center justify-center w-24 h-24 rounded-full border-2 border-primary-blue bg-white shadow-lg shadow-primary-blue/10 mb-6">
-                <span className="text-primary-blue font-display text-2xl font-bold">
+              <div className={`relative inline-flex items-center justify-center w-24 h-24 rounded-full border-2 mb-6 ${
+                index === 0
+                  ? 'border-primary-blue bg-primary-blue shadow-lg shadow-primary-blue/20'
+                  : 'border-slate-light/30 bg-white'
+              }`}>
+                <span className={`font-display text-2xl font-bold ${
+                  index === 0 ? 'text-white' : 'text-slate-light'
+                }`}>
                   {step.number}
                 </span>
               </div>

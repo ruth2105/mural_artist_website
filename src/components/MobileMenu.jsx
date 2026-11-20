@@ -1,18 +1,47 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { artistInfo } from '../data/artist';
 
 export default function MobileMenu({ isOpen, onClose, navLinks, scrollToSection }) {
+  const menuRef = useRef(null);
+  const closeButtonRef = useRef(null);
+  const previousFocusRef = useRef(null);
+
   useEffect(() => {
     if (isOpen) {
+      previousFocusRef.current = document.activeElement;
       document.body.style.overflow = 'hidden';
+      window.requestAnimationFrame(() => closeButtonRef.current?.focus());
+      const handleKeyDown = (event) => {
+        if (event.key === 'Escape') {
+          onClose();
+          return;
+        }
+        if (event.key !== 'Tab') return;
+        const focusable = menuRef.current?.querySelectorAll(
+          'button:not([disabled]), a[href]'
+        );
+        if (!focusable?.length) return;
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (event.shiftKey && document.activeElement === first) {
+          event.preventDefault();
+          last.focus();
+        } else if (!event.shiftKey && document.activeElement === last) {
+          event.preventDefault();
+          first.focus();
+        }
+      };
+      window.addEventListener('keydown', handleKeyDown);
+      return () => window.removeEventListener('keydown', handleKeyDown);
     } else {
       document.body.style.overflow = 'unset';
+      previousFocusRef.current?.focus?.();
     }
     return () => {
       document.body.style.overflow = 'unset';
     };
-  }, [isOpen]);
+  }, [isOpen, onClose]);
 
   const handleNavClick = (id) => {
     scrollToSection(id);
@@ -23,6 +52,11 @@ export default function MobileMenu({ isOpen, onClose, navLinks, scrollToSection 
     <AnimatePresence>
       {isOpen && (
         <motion.div
+          id="mobile-navigation"
+          ref={menuRef}
+          role="dialog"
+          aria-modal="true"
+          aria-label="Mobile navigation"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
@@ -34,8 +68,9 @@ export default function MobileMenu({ isOpen, onClose, navLinks, scrollToSection 
             <div className="flex items-center justify-between p-6">
               <span className="text-warm-white font-stencil text-lg tracking-wide">{artistInfo.name}</span>
               <button
+                ref={closeButtonRef}
                 onClick={onClose}
-                className="text-warm-white p-2"
+                className="text-warm-white p-2 hover:text-primary-blue transition-colors"
                 aria-label="Close menu"
               >
                 <svg

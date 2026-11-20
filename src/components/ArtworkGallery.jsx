@@ -31,7 +31,7 @@ export default function ArtworkGallery({ onProjectClick }) {
   const isInView = useInView(ref, { once: true, amount: 0.1 });
   
   // Use database hook with fallback to static data
-  const { artworks, loading } = useArtworks(activeCategory);
+  const { artworks, loading, error } = useArtworks(activeCategory);
   const categories = staticCategories; // Categories structure is stable
   
   const visibleSections = gallerySections.filter((section) => (
@@ -62,7 +62,7 @@ export default function ArtworkGallery({ onProjectClick }) {
               className={`shrink-0 border px-4 py-2.5 text-[11px] uppercase tracking-[0.12em] transition-all sm:px-5 sm:text-xs rounded-lg ${
                 activeCategory === category.id
                   ? 'border-primary-blue bg-primary-blue text-white shadow-lg shadow-primary-blue/30'
-                  : 'border-primary-blue/30 text-slate-text bg-white hover:border-primary-blue hover:bg-light-blue/30'
+                  : 'border-slate-light/30 text-slate-text bg-white hover:border-primary-blue hover:bg-light-blue/60'
               }`}
             >
               {category.label}
@@ -105,7 +105,7 @@ export default function ArtworkGallery({ onProjectClick }) {
                         {sectionArtworks.map((artwork, index) => (
                           <ArtworkCard
                             key={artwork.id}
-                            artwork={artwork}
+                            artwork={{ ...artwork, categoryLabel: sectionCategory.label }}
                             onClick={onProjectClick}
                             index={index + sectionIndex}
                             variant="editorial"
@@ -116,6 +116,10 @@ export default function ArtworkGallery({ onProjectClick }) {
                   ) : loading ? (
                     <p className="border border-primary-blue/20 bg-light-blue/30 px-5 py-8 text-center text-slate-light rounded-lg">
                       Loading artwork...
+                    </p>
+                  ) : error ? (
+                    <p role="alert" className="border border-red-300 bg-red-50 px-5 py-8 text-center text-red-700 rounded-lg">
+                      Artwork could not be loaded from the database. Showing cached portfolio data where available.
                     </p>
                   ) : (
                     <p className="border border-primary-blue/20 bg-light-blue/30 px-5 py-8 text-center text-slate-light rounded-lg">

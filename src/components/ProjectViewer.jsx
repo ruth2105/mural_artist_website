@@ -1,11 +1,14 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { artworks } from '../data/artworks';
 
 export default function ProjectViewer({ project, onClose, onNavigate }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [videoErrors, setVideoErrors] = useState({});
+  const closeButtonRef = useRef(null);
+  const previousFocusRef = useRef(null);
+  const dialogRef = useRef(null);
 
   useEffect(() => {
     if (project) {
@@ -21,9 +24,12 @@ export default function ProjectViewer({ project, onClose, onNavigate }) {
 
   useEffect(() => {
     if (project) {
+      previousFocusRef.current = document.activeElement;
       document.body.style.overflow = 'hidden';
+      window.requestAnimationFrame(() => closeButtonRef.current?.focus());
     } else {
       document.body.style.overflow = 'unset';
+      previousFocusRef.current?.focus?.();
     }
     return () => {
       document.body.style.overflow = 'unset';
@@ -36,6 +42,20 @@ export default function ProjectViewer({ project, onClose, onNavigate }) {
       
       if (e.key === 'Escape') {
         onClose();
+      } else if (e.key === 'Tab') {
+        const focusable = dialogRef.current?.querySelectorAll(
+          'button:not([disabled]), a[href], video[controls]'
+        );
+        if (!focusable?.length) return;
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
       } else if (e.key === 'ArrowLeft') {
         handlePrevious();
       } else if (e.key === 'ArrowRight') {
@@ -76,6 +96,7 @@ export default function ProjectViewer({ project, onClose, onNavigate }) {
     <AnimatePresence>
       {project && (
         <motion.div
+          ref={dialogRef}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
@@ -97,8 +118,9 @@ export default function ProjectViewer({ project, onClose, onNavigate }) {
             >
               {/* Close Button */}
               <button
+                ref={closeButtonRef}
                 onClick={onClose}
-                className="absolute -top-12 right-0 text-warm-white p-2 hover:opacity-70 transition-opacity z-10"
+                className="absolute -top-12 right-0 text-warm-white p-2 hover:text-primary-blue transition-colors z-10"
                 aria-label="Close viewer"
               >
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="2">
